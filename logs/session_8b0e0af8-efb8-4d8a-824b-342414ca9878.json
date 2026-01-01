@@ -1,0 +1,110 @@
+{
+  "session_id": "8b0e0af8-efb8-4d8a-824b-342414ca9878",
+  "created_at": "2025-12-21T11:51:01.804953",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-21T11:51:01.804953",
+      "admin": "Gaya",
+      "topic": "We are a family planning for a trip next March. The trip will be for 10 days"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T11:53:11.884071",
+      "member_id": "d3a796c5-e7e4-47dc-9611-4d4c203494e8",
+      "member_name": "Noy"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T11:54:16.445866",
+      "member_id": "b4ffce99-e61c-4430-a64a-016cc9a87881",
+      "member_name": "Rony"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-21T12:01:12.572472",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T12:01:12.584977",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:01:27.542715",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "I want to go to Italy because I love pasta"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:02:03.989435",
+      "round": 1,
+      "member_name": "Noy",
+      "response_preview": "I want a fancy hotel and have a chill time"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:02:45.751503",
+      "round": 1,
+      "member_name": "Rony",
+      "response_preview": "I want to go on hikes and see beutiful views"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T12:02:45.764899",
+      "round": 1,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-21T12:01:12.584977",
+      "questions": {
+        "076ab304-405c-4d52-b050-bee108fd5123": "Welcome to this group decision session!\n\nTopic: We are a family planning for a trip next March. The trip will be for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "d3a796c5-e7e4-47dc-9611-4d4c203494e8": "Welcome to this group decision session!\n\nTopic: We are a family planning for a trip next March. The trip will be for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "b4ffce99-e61c-4430-a64a-016cc9a87881": "Welcome to this group decision session!\n\nTopic: We are a family planning for a trip next March. The trip will be for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "076ab304-405c-4d52-b050-bee108fd5123": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: We are a family planning for a trip next March. The trip will be for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to go to Italy because I love pasta",
+          "timestamp": "2025-12-21T12:01:27.542715"
+        },
+        "d3a796c5-e7e4-47dc-9611-4d4c203494e8": {
+          "member_name": "Noy",
+          "question": "Welcome to this group decision session!\n\nTopic: We are a family planning for a trip next March. The trip will be for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want a fancy hotel and have a chill time",
+          "timestamp": "2025-12-21T12:02:03.989435"
+        },
+        "b4ffce99-e61c-4430-a64a-016cc9a87881": {
+          "member_name": "Rony",
+          "question": "Welcome to this group decision session!\n\nTopic: We are a family planning for a trip next March. The trip will be for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to go on hikes and see beutiful views",
+          "timestamp": "2025-12-21T12:02:45.751503"
+        }
+      },
+      "completed_at": "2025-12-21T12:02:45.764899",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "We are a family planning for a trip next March. The trip will be for 10 days",
+  "admin": "Gaya",
+  "invite_code": "DVTY77E2",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "d3a796c5-e7e4-47dc-9611-4d4c203494e8": "Noy",
+    "b4ffce99-e61c-4430-a64a-016cc9a87881": "Rony"
+  },
+  "started_at": "2025-12-21T12:01:12.572472",
+  "member_count": 3
+}

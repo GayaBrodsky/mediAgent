@@ -1,0 +1,68 @@
+{
+  "session_id": "230f6b02-8d39-464f-89d4-24739c2b20ed",
+  "created_at": "2025-12-20T21:09:36.980551",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-20T21:09:36.980571",
+      "admin": "E1",
+      "topic": "Decide which fruit to share and eat"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-20T21:10:15.536302",
+      "member_id": "7fc86c5e-f20c-498e-b11f-00b5b2a9ebf5",
+      "member_name": "R1"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-20T21:10:24.407804",
+      "member_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:10:24.423033",
+      "round": 1,
+      "question_count": 2
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-20T21:10:32.681432",
+      "round": 1,
+      "member_name": "R1",
+      "response_preview": "I like apples and oranges"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-20T21:10:24.423019",
+      "questions": {
+        "b3a81c28-9719-4c45-874e-26b75a545511": "Welcome to this group decision session!\n\nTopic: Decide which fruit to share and eat\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "7fc86c5e-f20c-498e-b11f-00b5b2a9ebf5": "Welcome to this group decision session!\n\nTopic: Decide which fruit to share and eat\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "7fc86c5e-f20c-498e-b11f-00b5b2a9ebf5": {
+          "member_name": "R1",
+          "question": "Welcome to this group decision session!\n\nTopic: Decide which fruit to share and eat\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I like apples and oranges",
+          "timestamp": "2025-12-20T21:10:32.681420"
+        }
+      }
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "Decide which fruit to share and eat",
+  "admin": "E1",
+  "invite_code": "W66BGJZE",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 86400,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "7fc86c5e-f20c-498e-b11f-00b5b2a9ebf5": "R1"
+  },
+  "started_at": "2025-12-20T21:10:24.407790",
+  "member_count": 2
+}

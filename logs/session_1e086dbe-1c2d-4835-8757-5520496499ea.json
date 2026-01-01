@@ -1,0 +1,114 @@
+{
+  "session_id": "1e086dbe-1c2d-4835-8757-5520496499ea",
+  "created_at": "2025-12-20T21:40:57.247967",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-20T21:40:57.247986",
+      "admin": "E6",
+      "topic": "Select a country to travel in the next vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-20T21:41:15.313732",
+      "member_id": "1895fa0d-2392-4680-9c1a-e02ae94a329f",
+      "member_name": "R6"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-20T21:41:19.858478",
+      "member_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:41:19.871135",
+      "round": 1,
+      "question_count": 2
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-20T21:41:47.566753",
+      "round": 1,
+      "member_name": "R6",
+      "response_preview": "I like south america.. maybe colombia or peru.. nice vibes"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-20T21:42:10.961357",
+      "round": 1,
+      "member_name": "E6",
+      "response_preview": "I like the east, like southern Asia"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-20T21:42:10.975116",
+      "round": 1,
+      "response_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:42:14.529759",
+      "round": 2,
+      "question_count": 2
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-20T21:41:19.871127",
+      "questions": {
+        "1c11281c-16a1-4b5c-abbe-d2204e263125": "Welcome to this group decision session!\n\nTopic: Select a country to travel in the next vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "1895fa0d-2392-4680-9c1a-e02ae94a329f": "Welcome to this group decision session!\n\nTopic: Select a country to travel in the next vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "1895fa0d-2392-4680-9c1a-e02ae94a329f": {
+          "member_name": "R6",
+          "question": "Welcome to this group decision session!\n\nTopic: Select a country to travel in the next vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I like south america.. maybe colombia or peru.. nice vibes",
+          "timestamp": "2025-12-20T21:41:47.566739"
+        },
+        "1c11281c-16a1-4b5c-abbe-d2204e263125": {
+          "member_name": "E6",
+          "question": "Welcome to this group decision session!\n\nTopic: Select a country to travel in the next vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I like the east, like southern Asia",
+          "timestamp": "2025-12-20T21:42:10.961342"
+        }
+      },
+      "completed_at": "2025-12-20T21:42:10.975106",
+      "response_count": 2
+    },
+    "2": {
+      "started_at": "2025-12-20T21:42:14.529725",
+      "questions": {
+        "1895fa0d-2392-4680-9c1a-e02ae94a329f": "I understand you're drawn to the 'nice vibes' of South America, particularly Colombia or Peru. Could you share more about what specifically attracts you to these countries? Are there particular activities or experiences you're looking for that might also be present in regions like Southern Asia?",
+        "1c11281c-16a1-4b5c-abbe-d2204e263125": "You mentioned a preference for Southern Asia. Could you elaborate on what aspects of this region are most appealing to you? Is there anything about the cultural experiences you value that could also be found in South American countries like Colombia or Peru?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-20T21:42:14.507956",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** Select a country to travel in the next vacation\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**R6:**\nI like south america.. maybe colombia or peru.. nice vibes\n\n**E6:**\nI like the east, like southern Asia\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question for EACH participant that:\n   -...",
+      "response": "```json\n{\n    \"analysis\": \"R6 is interested in traveling to South America, specifically mentioning Colombia or Peru, and is motivated by the 'nice vibes' of the region. E6 prefers Southern Asia, indicating a preference for the eastern part of the world. The key themes include a desire for destinations with distinctive cultural experiences. The primary disagreement is on the continent preference, with one favoring South America and the other favoring Southern Asia. However, both participants seem to value unique cultural experiences and possibly vibrant atmospheres.\",\n    \"questions\": {\n        \"R6\": \"I understand you're drawn to the 'nice vibes' of South America, particularly Colombia or Peru. Could you share more about what specifically attracts you to these countries? Are there particular activities or experiences you're looking for that might also be present in regions like Southern Asia?\",\n        \"E6\": \"You mentioned a preference for Southern Asia. Could you elaborate on what aspe...",
+      "parsed_questions": {
+        "R6": "I understand you're drawn to the 'nice vibes' of South America, particularly Colombia or Peru. Could you share more about what specifically attracts you to these countries? Are there particular activities or experiences you're looking for that might also be present in regions like Southern Asia?",
+        "E6": "You mentioned a preference for Southern Asia. Could you elaborate on what aspects of this region are most appealing to you? Is there anything about the cultural experiences you value that could also be found in South American countries like Colombia or Peru?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "Select a country to travel in the next vacation",
+  "admin": "E6",
+  "invite_code": "ZZKX4DDW",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 86400,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "1895fa0d-2392-4680-9c1a-e02ae94a329f": "R6"
+  },
+  "started_at": "2025-12-20T21:41:19.858466",
+  "member_count": 2
+}

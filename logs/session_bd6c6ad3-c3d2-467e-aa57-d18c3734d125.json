@@ -1,0 +1,331 @@
+{
+  "session_id": "bd6c6ad3-c3d2-467e-aa57-d18c3734d125",
+  "created_at": "2025-12-21T15:21:59.084769",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-21T15:21:59.084769",
+      "admin": "Gaya",
+      "topic": "A family vacation for 10 days abroad"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T15:22:07.080216",
+      "member_id": "bb911593-e2d6-4e41-ba1d-e91aad379afa",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T15:22:14.162671",
+      "member_id": "e741a8cd-59c7-458f-bec5-39c419bd6361",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-21T15:22:19.523553",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T15:22:19.534644",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:22:24.897146",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "i want to go to italy and eat a lot of pasta"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:22:35.118847",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "i want to go on hikes in nature"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:22:43.882148",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "i want to stay in a nice hotel"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T15:22:43.897001",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T15:22:55.443121",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:24:55.829510",
+      "round": 2,
+      "member_name": "Gaya",
+      "response_preview": "I mainly want to move my body. Doesnt have to be hard. just move on a daily basis."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:25:39.535709",
+      "round": 2,
+      "member_name": "Adi",
+      "response_preview": "I want a 4-star hotel, don't care where. I want breakfast included and shopping malls/streets near."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:26:17.966839",
+      "round": 2,
+      "member_name": "Eyal",
+      "response_preview": "I don't mind, i just want to eat good pasta in italy."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T15:26:17.983706",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T15:26:28.785939",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:27:24.208633",
+      "round": 3,
+      "member_name": "Gaya",
+      "response_preview": "I don't mind. just moving my body and eating good and healthy food."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:28:35.501951",
+      "round": 3,
+      "member_name": "Adi",
+      "response_preview": "I care mainly for the hotel and shoping."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T15:29:59.034119",
+      "round": 3,
+      "member_name": "Eyal",
+      "response_preview": "Movement is good.  i want good pasta, it's the most important thing for me"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T15:29:59.052322",
+      "round": 3,
+      "response_count": 3
+    },
+    {
+      "type": "voting_started",
+      "timestamp": "2025-12-21T15:30:16.653647",
+      "option_count": 3
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-21T15:31:18.353923",
+      "member_name": "Gaya",
+      "option": "Italian Culinary & Cultural Journey with Active Exploration"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-21T15:31:35.203980",
+      "member_name": "Adi",
+      "option": "Italian Culinary & Cultural Journey with Active Exploration"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-21T15:31:39.486213",
+      "member_name": "Eyal",
+      "option": "Alpine Retreat with Gourmet Dining & Spa Comfort"
+    },
+    {
+      "type": "session_completed",
+      "timestamp": "2025-12-21T15:31:39.502679"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-21T15:22:19.534644",
+      "questions": {
+        "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": "Welcome to this group decision session!\n\nTopic: A family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "bb911593-e2d6-4e41-ba1d-e91aad379afa": "Welcome to this group decision session!\n\nTopic: A family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "e741a8cd-59c7-458f-bec5-39c419bd6361": "Welcome to this group decision session!\n\nTopic: A family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "e741a8cd-59c7-458f-bec5-39c419bd6361": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to go to italy and eat a lot of pasta",
+          "timestamp": "2025-12-21T15:22:24.897146"
+        },
+        "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to go on hikes in nature",
+          "timestamp": "2025-12-21T15:22:35.118847"
+        },
+        "bb911593-e2d6-4e41-ba1d-e91aad379afa": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to stay in a nice hotel",
+          "timestamp": "2025-12-21T15:22:43.882148"
+        }
+      },
+      "completed_at": "2025-12-21T15:22:43.897001",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-21T15:22:55.443121",
+      "questions": {
+        "e741a8cd-59c7-458f-bec5-39c419bd6361": "Eyal, your interest in Italy and enjoying its culinary offerings, especially pasta, is noted. Could you share a bit more about what makes Italy particularly appealing to you for this trip? Are there specific types of food experiences you're hoping for, and how might those fit with a broader range of activities the group might consider for our time abroad?",
+        "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": "Gaya, your interest in incorporating hikes in nature into our vacation is a clear priority for you. Could you elaborate on the kind of natural environments and hiking experiences you have in mind? For example, are you thinking of challenging treks, scenic walks, or something else? Understanding this will help us see how this can be woven into a comprehensive group experience.",
+        "bb911593-e2d6-4e41-ba1d-e91aad379afa": "Adi, your preference for staying in a nice hotel is an important consideration. To help us understand this better, could you describe what 'nice' means to you in terms of hotel amenities, atmosphere, or services? This will help us ensure comfort and quality are a part of the overall group experience."
+      },
+      "responses": {
+        "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": {
+          "member_name": "Gaya",
+          "question": "Gaya, your interest in incorporating hikes in nature into our vacation is a clear priority for you. Could you elaborate on the kind of natural environments and hiking experiences you have in mind? For example, are you thinking of challenging treks, scenic walks, or something else? Understanding this will help us see how this can be woven into a comprehensive group experience.",
+          "response": "I mainly want to move my body. Doesnt have to be hard. just move on a daily basis.",
+          "timestamp": "2025-12-21T15:24:55.829510"
+        },
+        "bb911593-e2d6-4e41-ba1d-e91aad379afa": {
+          "member_name": "Adi",
+          "question": "Adi, your preference for staying in a nice hotel is an important consideration. To help us understand this better, could you describe what 'nice' means to you in terms of hotel amenities, atmosphere, or services? This will help us ensure comfort and quality are a part of the overall group experience.",
+          "response": "I want a 4-star hotel, don't care where. I want breakfast included and shopping malls/streets near.",
+          "timestamp": "2025-12-21T15:25:39.535709"
+        },
+        "e741a8cd-59c7-458f-bec5-39c419bd6361": {
+          "member_name": "Eyal",
+          "question": "Eyal, your interest in Italy and enjoying its culinary offerings, especially pasta, is noted. Could you share a bit more about what makes Italy particularly appealing to you for this trip? Are there specific types of food experiences you're hoping for, and how might those fit with a broader range of activities the group might consider for our time abroad?",
+          "response": "I don't mind, i just want to eat good pasta in italy.",
+          "timestamp": "2025-12-21T15:26:17.966839"
+        }
+      },
+      "completed_at": "2025-12-21T15:26:17.983706",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2025-12-21T15:26:28.785939",
+      "questions": {
+        "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": "It's clear that daily physical activity is a core part of your ideal vacation, and you've indicated flexibility on the intensity. Considering the group's evolving interests in both comfortable accommodations and specific culinary experiences, what kind of environments or activities would best allow you to move your body while also blending seamlessly with other preferences for relaxation or cultural exploration?",
+        "bb911593-e2d6-4e41-ba1d-e91aad379afa": "Your desire for specific accommodation standards and convenient amenities is very clear. As the group explores potential destinations, how might we prioritize or combine these important comforts with other emerging interests in active exploration or particular cultural experiences? Are there certain aspects of your ideal hotel environment that are non-negotiable, and others where there might be flexibility if it opened up other appealing options for the group?",
+        "e741a8cd-59c7-458f-bec5-39c419bd6361": "Given that your primary interest is in a specific culinary experience within a particular country, and you've expressed flexibility on other aspects, the group is now exploring how to balance desires for comfortable, convenient accommodations with opportunities for daily physical activity. If the group were to narrow down options between a more centrally-located, amenity-rich experience or one that offers more direct access to varied movement opportunities, which direction do you feel would best serve the family's overall enjoyment for this trip?"
+      },
+      "responses": {
+        "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": {
+          "member_name": "Gaya",
+          "question": "It's clear that daily physical activity is a core part of your ideal vacation, and you've indicated flexibility on the intensity. Considering the group's evolving interests in both comfortable accommodations and specific culinary experiences, what kind of environments or activities would best allow you to move your body while also blending seamlessly with other preferences for relaxation or cultural exploration?",
+          "response": "I don't mind. just moving my body and eating good and healthy food.",
+          "timestamp": "2025-12-21T15:27:24.208633"
+        },
+        "bb911593-e2d6-4e41-ba1d-e91aad379afa": {
+          "member_name": "Adi",
+          "question": "Your desire for specific accommodation standards and convenient amenities is very clear. As the group explores potential destinations, how might we prioritize or combine these important comforts with other emerging interests in active exploration or particular cultural experiences? Are there certain aspects of your ideal hotel environment that are non-negotiable, and others where there might be flexibility if it opened up other appealing options for the group?",
+          "response": "I care mainly for the hotel and shoping.",
+          "timestamp": "2025-12-21T15:28:35.501951"
+        },
+        "e741a8cd-59c7-458f-bec5-39c419bd6361": {
+          "member_name": "Eyal",
+          "question": "Given that your primary interest is in a specific culinary experience within a particular country, and you've expressed flexibility on other aspects, the group is now exploring how to balance desires for comfortable, convenient accommodations with opportunities for daily physical activity. If the group were to narrow down options between a more centrally-located, amenity-rich experience or one that offers more direct access to varied movement opportunities, which direction do you feel would best serve the family's overall enjoyment for this trip?",
+          "response": "Movement is good.  i want good pasta, it's the most important thing for me",
+          "timestamp": "2025-12-21T15:29:59.034119"
+        }
+      },
+      "completed_at": "2025-12-21T15:29:59.052322",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-21T15:22:55.424146",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation for 10 days abroad\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Eyal:**\ni want to go to italy and eat a lot of pasta\n\n**Gaya:**\ni want to go on hikes in nature\n\n**Adi:**\ni want to stay in a nice hotel\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question for EACH partic...",
+      "response": "```json\n{\n    \"analysis\": \"The group is planning a 10-day family vacation abroad. Initial preferences highlight three distinct priorities: Eyal is keen on a culinary-focused trip, specifically mentioning Italy and pasta. Gaya is looking for active experiences in nature, emphasizing hikes. Adi's primary focus is on comfort and accommodation, with a desire to stay in a nice hotel. There's no explicit conflict yet, as these preferences could potentially be combined (e.g., a nice hotel in a nature-rich region of Italy with good food). The key will be to understand the depth of each preference and where flexibility might lie to create a balanced itinerary that addresses everyone's core needs.\",\n    \"questions\": {\n        \"Eyal\": \"Eyal, your interest in Italy and enjoying its culinary offerings, especially pasta, is noted. Could you share a bit more about what makes Italy particularly appealing to you for this trip? Are there specific types of food experiences you're hoping for, and how migh...",
+      "parsed_questions": {
+        "Eyal": "Eyal, your interest in Italy and enjoying its culinary offerings, especially pasta, is noted. Could you share a bit more about what makes Italy particularly appealing to you for this trip? Are there specific types of food experiences you're hoping for, and how might those fit with a broader range of activities the group might consider for our time abroad?",
+        "Gaya": "Gaya, your interest in incorporating hikes in nature into our vacation is a clear priority for you. Could you elaborate on the kind of natural environments and hiking experiences you have in mind? For example, are you thinking of challenging treks, scenic walks, or something else? Understanding this will help us see how this can be woven into a comprehensive group experience.",
+        "Adi": "Adi, your preference for staying in a nice hotel is an important consideration. To help us understand this better, could you describe what 'nice' means to you in terms of hotel amenities, atmosphere, or services? This will help us ensure comfort and quality are a part of the overall group experience."
+      }
+    },
+    {
+      "timestamp": "2025-12-21T15:26:28.770877",
+      "round": 2,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation for 10 days abroad\n\nThis is **Round 2** of the discussion. Here's the conversation history:\n\n**Round 1 Responses:**\n**Eyal:**\ni want to go to italy and eat a lot of pasta\n\n**Gaya:**\ni want to go on hikes in nature\n\n**Adi:**\ni want to stay in a nice hotel\n\n\n**Round 2 Responses:**\n**Gaya:**\nI mainly want to move my body. Doesnt have to be hard. just move on a daily basis.\n\n**Adi:**\nI want a 4-star hotel, do...",
+      "response": "```json\n{\n    \"analysis\": \"In Round 2, participants have further clarified their core needs and, in some cases, shown increased flexibility or specificity. \\n*   **Gaya** has broadened her activity preference from 'hikes in nature' to the more general 'move my body daily,' emphasizing that it doesn't need to be strenuous. This indicates a willingness to adapt the type of physical activity.\\n*   **Adi** has become very specific about her accommodation and immediate surroundings (4-star hotel, breakfast included, shopping nearby) but has explicitly stated 'don't care where' regarding the location. This creates a significant opening for location compromise if her core comfort needs are met.\\n*   **Eyal** has reiterated his core desire for 'good pasta in Italy' and explicitly stated 'I don't mind' regarding other aspects, reinforcing his flexibility on elements outside his primary interest.\",\n    \"emerging_consensus\": \"The most consistent and specific location preference remains **Italy** ...",
+      "parsed_questions": {
+        "Gaya": "It's clear that daily physical activity is a core part of your ideal vacation, and you've indicated flexibility on the intensity. Considering the group's evolving interests in both comfortable accommodations and specific culinary experiences, what kind of environments or activities would best allow you to move your body while also blending seamlessly with other preferences for relaxation or cultural exploration?",
+        "Adi": "Your desire for specific accommodation standards and convenient amenities is very clear. As the group explores potential destinations, how might we prioritize or combine these important comforts with other emerging interests in active exploration or particular cultural experiences? Are there certain aspects of your ideal hotel environment that are non-negotiable, and others where there might be flexibility if it opened up other appealing options for the group?",
+        "Eyal": "Given that your primary interest is in a specific culinary experience within a particular country, and you've expressed flexibility on other aspects, the group is now exploring how to balance desires for comfortable, convenient accommodations with opportunities for daily physical activity. If the group were to narrow down options between a more centrally-located, amenity-rich experience or one that offers more direct access to varied movement opportunities, which direction do you feel would best serve the family's overall enjoyment for this trip?"
+      }
+    }
+  ],
+  "final_decision": {
+    "winner": "Italian Culinary & Cultural Journey with Active Exploration",
+    "votes": {
+      "Italian Culinary & Cultural Journey with Active Exploration": 2,
+      "Alpine Retreat with Gourmet Dining & Spa Comfort": 1,
+      "Coastal Mediterranean Blend: Activity, Cuisine & Relaxation": 0
+    }
+  },
+  "topic": "A family vacation for 10 days abroad",
+  "admin": "Gaya",
+  "invite_code": "X3KWCHB7",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "bb911593-e2d6-4e41-ba1d-e91aad379afa": "Adi",
+    "e741a8cd-59c7-458f-bec5-39c419bd6361": "Eyal"
+  },
+  "started_at": "2025-12-21T15:22:19.523553",
+  "member_count": 3,
+  "voting": {
+    "started_at": "2025-12-21T15:30:16.653647",
+    "options": [
+      {
+        "title": "Italian Culinary & Cultural Journey with Active Exploration",
+        "description": "Focus on a region in Italy known for its rich culinary heritage, such as Emilia-Romagna (Bologna for pasta) or Tuscany (Florence for food, art, and day trips). This allows for daily walks through historic towns, gentle cycling or hiking in the countryside, and ensures access to 4-star hotels with breakfast and shopping opportunities in larger cities."
+      },
+      {
+        "title": "Alpine Retreat with Gourmet Dining & Spa Comfort",
+        "description": "Consider a destination in the European Alps (e.g., Dolomites in Italy, Austrian Alps, Swiss Alps). This provides abundant opportunities for daily walks and hikes in stunning natural settings. Many hotels in these regions are 4-star, offer excellent dining (which can include healthy options and sometimes pasta, especially in the Italian Dolomites), and often feature spas. Nearby towns offer some shopping opportunities."
+      },
+      {
+        "title": "Coastal Mediterranean Blend: Activity, Cuisine & Relaxation",
+        "description": "Explore a coastal region that offers a mix of activities. For example, parts of the Amalfi Coast or Cinque Terre in Italy, or consider other Mediterranean options like parts of Croatia, Greece, or southern France. These areas offer scenic walks, fresh cuisine (including pasta options), and 4-star hotels with access to charming towns for shopping. Activities could involve coastal walks, swimming, and exploring local markets."
+      }
+    ],
+    "votes": {
+      "9a887ea6-dcf4-4d6e-96ba-33681ca0bc84": {
+        "member_name": "Gaya",
+        "option_index": 0,
+        "option_title": "Italian Culinary & Cultural Journey with Active Exploration",
+        "timestamp": "2025-12-21T15:31:18.353923"
+      },
+      "bb911593-e2d6-4e41-ba1d-e91aad379afa": {
+        "member_name": "Adi",
+        "option_index": 0,
+        "option_title": "Italian Culinary & Cultural Journey with Active Exploration",
+        "timestamp": "2025-12-21T15:31:35.203980"
+      },
+      "e741a8cd-59c7-458f-bec5-39c419bd6361": {
+        "member_name": "Eyal",
+        "option_index": 1,
+        "option_title": "Alpine Retreat with Gourmet Dining & Spa Comfort",
+        "timestamp": "2025-12-21T15:31:39.486213"
+      }
+    }
+  },
+  "completed_at": "2025-12-21T15:31:39.502679"
+}

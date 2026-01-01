@@ -1,0 +1,238 @@
+{
+  "session_id": "03e2d617-1309-44b1-9b22-0ffa26a4332a",
+  "created_at": "2025-12-21T22:25:31.590104",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-21T22:25:31.590104",
+      "admin": "Gaya",
+      "topic": "Family Vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T22:25:48.836535",
+      "member_id": "a7c9b70a-13df-459b-90be-575b924d89a4",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T22:26:01.350831",
+      "member_id": "77cfeadc-dac6-49f3-8ba0-d03205282e78",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-21T22:26:07.852397",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T22:26:07.864508",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:26:30.735695",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "I want to go somewhere with amazing Cyberpunk vibes, high-tech arcades, and places that look great o..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:26:43.923375",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "I prefer a quiet, historical city with old libraries, botanical gardens, and classic art museums. No..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:26:59.844448",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I just want to be in a city with a world-class street food scene. I'm flexible on the activities as ..."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T22:26:59.857752",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T22:27:09.989481",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:28:08.569254",
+      "round": 2,
+      "member_name": "Gaya",
+      "response_preview": "I’m looking for neon lights and futuristic architecture. I want to move around using high-tech publi..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:29:32.738414",
+      "round": 2,
+      "member_name": "Adi",
+      "response_preview": "I need plenty of benches and places to rest while walking. I enjoy a calm atmosphere and traditional..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:30:35.693426",
+      "round": 2,
+      "member_name": "Eyal",
+      "response_preview": "as long as the food quality and authenticity are there, I'm good"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T22:30:35.711485",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T22:30:45.813050",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:31:19.978777",
+      "round": 3,
+      "member_name": "Gaya",
+      "response_preview": "Sounds good!"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T22:31:50.189769",
+      "round": 3,
+      "member_name": "Adi",
+      "response_preview": "A mix of tradition and comfort is fine by me."
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-21T22:26:07.864508",
+      "questions": {
+        "82bf5e06-99a3-445e-82f4-8455a4b914a1": "Welcome to this group decision session!\n\nTopic: Family Vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "a7c9b70a-13df-459b-90be-575b924d89a4": "Welcome to this group decision session!\n\nTopic: Family Vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "77cfeadc-dac6-49f3-8ba0-d03205282e78": "Welcome to this group decision session!\n\nTopic: Family Vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "82bf5e06-99a3-445e-82f4-8455a4b914a1": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: Family Vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to go somewhere with amazing Cyberpunk vibes, high-tech arcades, and places that look great on TikTok. I need fast Wi-Fi everywhere.",
+          "timestamp": "2025-12-21T22:26:30.735695"
+        },
+        "a7c9b70a-13df-459b-90be-575b924d89a4": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: Family Vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I prefer a quiet, historical city with old libraries, botanical gardens, and classic art museums. No loud music or crowded tourist traps.",
+          "timestamp": "2025-12-21T22:26:43.923375"
+        },
+        "77cfeadc-dac6-49f3-8ba0-d03205282e78": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: Family Vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I just want to be in a city with a world-class street food scene. I'm flexible on the activities as long as the food is authentic.",
+          "timestamp": "2025-12-21T22:26:59.844448"
+        }
+      },
+      "completed_at": "2025-12-21T22:26:59.857752",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-21T22:27:09.989481",
+      "questions": {
+        "82bf5e06-99a3-445e-82f4-8455a4b914a1": "Gaya, your interest in a vibrant, technologically advanced environment with strong connectivity is clear. Could you elaborate on what specific *aspects* of the 'cyberpunk vibe' or 'high-tech arcades' are most compelling to you? For example, is it the visual aesthetic, the interactive experiences, or the social sharing opportunities? Are there particular types of high-tech experiences that would be a 'must-have' for you, or could a destination offer a blend of modern and perhaps other engaging elements that still capture that sense of excitement and innovation for you?",
+        "a7c9b70a-13df-459b-90be-575b924d89a4": "Adi, your desire for a serene, culturally rich experience in a historical setting, away from noise and crowds, is very well understood. To help us identify the best fit for everyone, could you share what makes the 'quiet' aspect so important to you? Is it about avoiding sensory overload, or more about creating a contemplative atmosphere? And regarding 'historical city,' are there specific historical periods or types of architecture that particularly appeal, or is the general sense of history and heritage the primary draw? How might a city that offers pockets of tranquility and historical depth alongside some lively, but not overwhelming, cultural areas resonate with your preferences?",
+        "77cfeadc-dac6-49f3-8ba0-d03205282e78": "Eyal, your enthusiasm for an authentic, world-class street food experience is a fantastic focus for the trip. Given your flexibility on activities, and the group's emerging interest in both vibrant, modern experiences and more tranquil, historically rich environments, how important is it for the street food scene to exist within a particular *type* of urban setting? For instance, would a destination that offers a fantastic food scene alongside more traditional or historical elements be appealing, or could it equally thrive in a more futuristic and bustling environment, as long as the food quality and authenticity are there?"
+      },
+      "responses": {
+        "82bf5e06-99a3-445e-82f4-8455a4b914a1": {
+          "member_name": "Gaya",
+          "question": "Gaya, your interest in a vibrant, technologically advanced environment with strong connectivity is clear. Could you elaborate on what specific *aspects* of the 'cyberpunk vibe' or 'high-tech arcades' are most compelling to you? For example, is it the visual aesthetic, the interactive experiences, or the social sharing opportunities? Are there particular types of high-tech experiences that would be a 'must-have' for you, or could a destination offer a blend of modern and perhaps other engaging elements that still capture that sense of excitement and innovation for you?",
+          "response": "I’m looking for neon lights and futuristic architecture. I want to move around using high-tech public transport",
+          "timestamp": "2025-12-21T22:28:08.569254"
+        },
+        "a7c9b70a-13df-459b-90be-575b924d89a4": {
+          "member_name": "Adi",
+          "question": "Adi, your desire for a serene, culturally rich experience in a historical setting, away from noise and crowds, is very well understood. To help us identify the best fit for everyone, could you share what makes the 'quiet' aspect so important to you? Is it about avoiding sensory overload, or more about creating a contemplative atmosphere? And regarding 'historical city,' are there specific historical periods or types of architecture that particularly appeal, or is the general sense of history and heritage the primary draw? How might a city that offers pockets of tranquility and historical depth alongside some lively, but not overwhelming, cultural areas resonate with your preferences?",
+          "response": "I need plenty of benches and places to rest while walking. I enjoy a calm atmosphere and traditional craftsmanship.",
+          "timestamp": "2025-12-21T22:29:32.738414"
+        },
+        "77cfeadc-dac6-49f3-8ba0-d03205282e78": {
+          "member_name": "Eyal",
+          "question": "Eyal, your enthusiasm for an authentic, world-class street food experience is a fantastic focus for the trip. Given your flexibility on activities, and the group's emerging interest in both vibrant, modern experiences and more tranquil, historically rich environments, how important is it for the street food scene to exist within a particular *type* of urban setting? For instance, would a destination that offers a fantastic food scene alongside more traditional or historical elements be appealing, or could it equally thrive in a more futuristic and bustling environment, as long as the food quality and authenticity are there?",
+          "response": "as long as the food quality and authenticity are there, I'm good",
+          "timestamp": "2025-12-21T22:30:35.693426"
+        }
+      },
+      "completed_at": "2025-12-21T22:30:35.711485",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2025-12-21T22:30:45.813050",
+      "questions": {
+        "82bf5e06-99a3-445e-82f4-8455a4b914a1": "How might we explore a destination that offers the captivating visual dynamism and modern infrastructure you're looking for, while also ensuring there are opportunities for quieter, perhaps more traditional, spaces or activities that cater to a broader range of preferences within the family?",
+        "a7c9b70a-13df-459b-90be-575b924d89a4": "Considering the group's interest in diverse experiences, how open might you be to a destination that features a rich historical core and opportunities for calm exploration, but also has distinct areas offering a more contemporary or vibrant atmosphere for the family to enjoy?",
+        "77cfeadc-dac6-49f3-8ba0-d03205282e78": "Given your primary interest in exceptional and authentic food experiences, if we were to identify a city renowned for its culinary scene, which type of supplementary experiences – perhaps exploring unique modern districts or delving into historical craftsmanship – would you see as most complementary for the overall family's enjoyment, helping to align different interests?"
+      },
+      "responses": {
+        "82bf5e06-99a3-445e-82f4-8455a4b914a1": {
+          "member_name": "Gaya",
+          "question": "How might we explore a destination that offers the captivating visual dynamism and modern infrastructure you're looking for, while also ensuring there are opportunities for quieter, perhaps more traditional, spaces or activities that cater to a broader range of preferences within the family?",
+          "response": "Sounds good!",
+          "timestamp": "2025-12-21T22:31:19.978777"
+        },
+        "a7c9b70a-13df-459b-90be-575b924d89a4": {
+          "member_name": "Adi",
+          "question": "Considering the group's interest in diverse experiences, how open might you be to a destination that features a rich historical core and opportunities for calm exploration, but also has distinct areas offering a more contemporary or vibrant atmosphere for the family to enjoy?",
+          "response": "A mix of tradition and comfort is fine by me.",
+          "timestamp": "2025-12-21T22:31:50.189769"
+        }
+      }
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-21T22:27:09.966464",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** Family Vacation\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Gaya:**\nI want to go somewhere with amazing Cyberpunk vibes, high-tech arcades, and places that look great on TikTok. I need fast Wi-Fi everywhere.\n\n**Adi:**\nI prefer a quiet, historical city with old libraries, botanical gardens, and classic art museums. No loud music or crowded tourist traps.\n\n**Eyal:**\nI jus...",
+      "response": "```json\n{\n    \"analysis\": \"The group's initial preferences reveal a strong desire for a city vacation, but with distinct and somewhat opposing priorities. Gaya seeks a modern, high-tech, and visually stimulating environment with strong digital connectivity. Adi prefers a quiet, historical, and culturally rich setting, specifically avoiding noise and crowds. Eyal's primary focus is an authentic, world-class street food scene, demonstrating flexibility on other activities. \\n\\n**Common Ground:** All participants are interested in an urban setting. \\n\\n**Key Disagreements:** The primary tension lies between Gaya's desire for a vibrant, high-energy, and potentially noisy/crowded modern experience versus Adi's need for tranquility, historical depth, and avoidance of crowds/noise. Eyal's food preference could potentially align with either a modern or historical city, depending on the specific culinary scene.\",\n    \"questions\": {\n        \"Gaya\": \"Gaya, your interest in a vibrant, technologica...",
+      "parsed_questions": {
+        "Gaya": "Gaya, your interest in a vibrant, technologically advanced environment with strong connectivity is clear. Could you elaborate on what specific *aspects* of the 'cyberpunk vibe' or 'high-tech arcades' are most compelling to you? For example, is it the visual aesthetic, the interactive experiences, or the social sharing opportunities? Are there particular types of high-tech experiences that would be a 'must-have' for you, or could a destination offer a blend of modern and perhaps other engaging elements that still capture that sense of excitement and innovation for you?",
+        "Adi": "Adi, your desire for a serene, culturally rich experience in a historical setting, away from noise and crowds, is very well understood. To help us identify the best fit for everyone, could you share what makes the 'quiet' aspect so important to you? Is it about avoiding sensory overload, or more about creating a contemplative atmosphere? And regarding 'historical city,' are there specific historical periods or types of architecture that particularly appeal, or is the general sense of history and heritage the primary draw? How might a city that offers pockets of tranquility and historical depth alongside some lively, but not overwhelming, cultural areas resonate with your preferences?",
+        "Eyal": "Eyal, your enthusiasm for an authentic, world-class street food experience is a fantastic focus for the trip. Given your flexibility on activities, and the group's emerging interest in both vibrant, modern experiences and more tranquil, historically rich environments, how important is it for the street food scene to exist within a particular *type* of urban setting? For instance, would a destination that offers a fantastic food scene alongside more traditional or historical elements be appealing, or could it equally thrive in a more futuristic and bustling environment, as long as the food quality and authenticity are there?"
+      }
+    },
+    {
+      "timestamp": "2025-12-21T22:30:45.795656",
+      "round": 2,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** Family Vacation\n\nThis is **Round 2** of the discussion. Here's the conversation history:\n\n**Round 1 Responses:**\n**Gaya:**\nI want to go somewhere with amazing Cyberpunk vibes, high-tech arcades, and places that look great on TikTok. I need fast Wi-Fi everywhere.\n\n**Adi:**\nI prefer a quiet, historical city with old libraries, botanical gardens, and classic art museums. No loud music or crowded tourist traps.\n\n**Eyal:**\nI ju...",
+      "response": "```json\n{\n    \"analysis\": \"Gaya has further clarified her desire for futuristic architecture, neon lights, and high-tech public transport, reinforcing her focus on modern, visually stimulating environments. Adi has elaborated on her need for comfort and tranquility, emphasizing benches for rest, a calm atmosphere, and an appreciation for traditional craftsmanship, building on her historical and cultural preferences. Eyal's position remains consistent and clear: his priority is a world-class, authentic street food scene, and he expresses flexibility on other activities as long as this core need is met.\",\n    \"emerging_consensus\": \"All participants implicitly lean towards a city setting, although their desired characteristics for that city differ significantly. There's a shared underlying desire for a rich 'experience,' whether it's cultural (historical, futuristic, or culinary). A potential area for overlap could be finding a destination that offers a blend of modern vibrancy and histor...",
+      "parsed_questions": {
+        "Gaya": "How might we explore a destination that offers the captivating visual dynamism and modern infrastructure you're looking for, while also ensuring there are opportunities for quieter, perhaps more traditional, spaces or activities that cater to a broader range of preferences within the family?",
+        "Adi": "Considering the group's interest in diverse experiences, how open might you be to a destination that features a rich historical core and opportunities for calm exploration, but also has distinct areas offering a more contemporary or vibrant atmosphere for the family to enjoy?",
+        "Eyal": "Given your primary interest in exceptional and authentic food experiences, if we were to identify a city renowned for its culinary scene, which type of supplementary experiences – perhaps exploring unique modern districts or delving into historical craftsmanship – would you see as most complementary for the overall family's enjoyment, helping to align different interests?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "Family Vacation",
+  "admin": "Gaya",
+  "invite_code": "7BNY5G8H",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "a7c9b70a-13df-459b-90be-575b924d89a4": "Adi",
+    "77cfeadc-dac6-49f3-8ba0-d03205282e78": "Eyal"
+  },
+  "started_at": "2025-12-21T22:26:07.852397",
+  "member_count": 3
+}

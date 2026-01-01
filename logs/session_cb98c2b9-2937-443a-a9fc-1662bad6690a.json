@@ -1,0 +1,331 @@
+{
+  "session_id": "cb98c2b9-2937-443a-a9fc-1662bad6690a",
+  "created_at": "2025-12-22T13:12:21.999123",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-22T13:12:21.999123",
+      "admin": "Gaya",
+      "topic": "A family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T13:12:32.597775",
+      "member_id": "0bd7eba3-5870-4d91-b4b7-82a49a49f143",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T13:12:38.304637",
+      "member_id": "ae038aeb-f449-4eff-b908-59fadb10d815",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-22T13:12:41.874906",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T13:12:41.885913",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:12:49.635225",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "I want to hike everyday in nature and see beautiful views"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:12:55.099650",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "I want to stay in a nice hotel and chill"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:13:02.467373",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I want to eat really good pasta in Italy"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T13:13:02.478641",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T13:13:12.381911",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:13:55.667679",
+      "round": 2,
+      "member_name": "Gaya",
+      "response_preview": "it is the physical activity, doesn't have to be hard"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:14:18.289487",
+      "round": 2,
+      "member_name": "Adi",
+      "response_preview": "It's about the opportunity to unwind. A 'nice hotel' means comfort and quiet where I can truly de-st..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:14:36.430956",
+      "round": 2,
+      "member_name": "Eyal",
+      "response_preview": "I just want to eat really good, authentic food. The rest doesn't matter much."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T13:14:36.446192",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T13:14:51.704924",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:15:38.743625",
+      "round": 3,
+      "member_name": "Gaya",
+      "response_preview": "Doesn't have to be intence. I just want to move my body."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:15:59.814210",
+      "round": 3,
+      "member_name": "Adi",
+      "response_preview": "I want a pool and breakfast"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T13:16:40.451671",
+      "round": 3,
+      "member_name": "Eyal",
+      "response_preview": "Whatever works for everybody. again, I just want to eat good food."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T13:16:40.467458",
+      "round": 3,
+      "response_count": 3
+    },
+    {
+      "type": "voting_started",
+      "timestamp": "2025-12-22T13:16:58.868853",
+      "option_count": 3
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-22T13:17:28.203439",
+      "member_name": "Gaya",
+      "option": "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-22T13:17:35.708122",
+      "member_name": "Adi",
+      "option": "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-22T13:17:42.350668",
+      "member_name": "Eyal",
+      "option": "Gourmet Retreat near a European National Park/Nature Reserve (e.g., Dolomites with a luxury lodge, Provence/South of France with a culinary focus)"
+    },
+    {
+      "type": "session_completed",
+      "timestamp": "2025-12-22T13:17:42.367158"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-22T13:12:41.885913",
+      "questions": {
+        "32772003-356f-45c9-9567-44b8c10a869d": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "0bd7eba3-5870-4d91-b4b7-82a49a49f143": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "ae038aeb-f449-4eff-b908-59fadb10d815": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "32772003-356f-45c9-9567-44b8c10a869d": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to hike everyday in nature and see beautiful views",
+          "timestamp": "2025-12-22T13:12:49.635225"
+        },
+        "0bd7eba3-5870-4d91-b4b7-82a49a49f143": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to stay in a nice hotel and chill",
+          "timestamp": "2025-12-22T13:12:55.099650"
+        },
+        "ae038aeb-f449-4eff-b908-59fadb10d815": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to eat really good pasta in Italy",
+          "timestamp": "2025-12-22T13:13:02.467373"
+        }
+      },
+      "completed_at": "2025-12-22T13:13:02.478641",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-22T13:13:12.381911",
+      "questions": {
+        "32772003-356f-45c9-9567-44b8c10a869d": "It sounds like immersing yourself in nature and experiencing beautiful views through daily hikes is a key desire for you. Could you tell me a bit more about what makes these elements so important for a vacation? For instance, is it the physical activity, the specific type of scenery, or the sense of escape that truly resonates with you?",
+        "0bd7eba3-5870-4d91-b4b7-82a49a49f143": "Your desire for a nice hotel and a 'chill' experience suggests comfort and relaxation are paramount. Could you elaborate on what specifically constitutes a 'nice hotel' for you – is it about luxury amenities, service, or a particular ambiance? And what kind of environment allows you to truly relax and unwind on vacation?",
+        "ae038aeb-f449-4eff-b908-59fadb10d815": "It's clear that enjoying truly good pasta in Italy is a strong desire for your vacation. Could you share what makes this particular culinary experience so appealing? Is it the specific location of Italy that's most important, or is it the broader experience of authentic, high-quality regional cuisine and cultural immersion that you're seeking?"
+      },
+      "responses": {
+        "32772003-356f-45c9-9567-44b8c10a869d": {
+          "member_name": "Gaya",
+          "question": "It sounds like immersing yourself in nature and experiencing beautiful views through daily hikes is a key desire for you. Could you tell me a bit more about what makes these elements so important for a vacation? For instance, is it the physical activity, the specific type of scenery, or the sense of escape that truly resonates with you?",
+          "response": "it is the physical activity, doesn't have to be hard",
+          "timestamp": "2025-12-22T13:13:55.667679"
+        },
+        "0bd7eba3-5870-4d91-b4b7-82a49a49f143": {
+          "member_name": "Adi",
+          "question": "Your desire for a nice hotel and a 'chill' experience suggests comfort and relaxation are paramount. Could you elaborate on what specifically constitutes a 'nice hotel' for you – is it about luxury amenities, service, or a particular ambiance? And what kind of environment allows you to truly relax and unwind on vacation?",
+          "response": "It's about the opportunity to unwind. A 'nice hotel' means comfort and quiet where I can truly de-stress without any rush.",
+          "timestamp": "2025-12-22T13:14:18.289487"
+        },
+        "ae038aeb-f449-4eff-b908-59fadb10d815": {
+          "member_name": "Eyal",
+          "question": "It's clear that enjoying truly good pasta in Italy is a strong desire for your vacation. Could you share what makes this particular culinary experience so appealing? Is it the specific location of Italy that's most important, or is it the broader experience of authentic, high-quality regional cuisine and cultural immersion that you're seeking?",
+          "response": "I just want to eat really good, authentic food. The rest doesn't matter much.",
+          "timestamp": "2025-12-22T13:14:36.430956"
+        }
+      },
+      "completed_at": "2025-12-22T13:14:36.446192",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2025-12-22T13:14:51.704924",
+      "questions": {
+        "32772003-356f-45c9-9567-44b8c10a869d": "Gaya, valuing active nature views, if the group were to find a setting that also offered significant opportunities for relaxation and diverse culinary experiences, how might the *intensity* or *type* of daily activity be adjusted to satisfy the collective?",
+        "0bd7eba3-5870-4d91-b4b7-82a49a49f143": "Adi, prioritizing unwind, comfort, quiet, if the group explores options that include accessible natural beauty for gentle activity and renowned food experiences, what would be the most essential features of your 'nice hotel' that absolutely cannot be compromised to ensure your relaxation?",
+        "ae038aeb-f449-4eff-b908-59fadb10d815": "Eyal, with your focus on authentic, quality food, the group is exploring locations that offer either more emphasis on active nature experiences or serene, comfortable environments. Which of these two primary directions do you believe would best complement a truly exceptional culinary journey for the entire family?"
+      },
+      "responses": {
+        "32772003-356f-45c9-9567-44b8c10a869d": {
+          "member_name": "Gaya",
+          "question": "Gaya, valuing active nature views, if the group were to find a setting that also offered significant opportunities for relaxation and diverse culinary experiences, how might the *intensity* or *type* of daily activity be adjusted to satisfy the collective?",
+          "response": "Doesn't have to be intence. I just want to move my body.",
+          "timestamp": "2025-12-22T13:15:38.743625"
+        },
+        "0bd7eba3-5870-4d91-b4b7-82a49a49f143": {
+          "member_name": "Adi",
+          "question": "Adi, prioritizing unwind, comfort, quiet, if the group explores options that include accessible natural beauty for gentle activity and renowned food experiences, what would be the most essential features of your 'nice hotel' that absolutely cannot be compromised to ensure your relaxation?",
+          "response": "I want a pool and breakfast",
+          "timestamp": "2025-12-22T13:15:59.814210"
+        },
+        "ae038aeb-f449-4eff-b908-59fadb10d815": {
+          "member_name": "Eyal",
+          "question": "Eyal, with your focus on authentic, quality food, the group is exploring locations that offer either more emphasis on active nature experiences or serene, comfortable environments. Which of these two primary directions do you believe would best complement a truly exceptional culinary journey for the entire family?",
+          "response": "Whatever works for everybody. again, I just want to eat good food.",
+          "timestamp": "2025-12-22T13:16:40.451671"
+        }
+      },
+      "completed_at": "2025-12-22T13:16:40.467458",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-22T13:13:12.363466",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Gaya:**\nI want to hike everyday in nature and see beautiful views\n\n**Adi:**\nI want to stay in a nice hotel and chill\n\n**Eyal:**\nI want to eat really good pasta in Italy\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question fo...",
+      "response": "```json\n{\n    \"analysis\": \"The initial preferences highlight three distinct desires: Gaya seeks active engagement with nature and scenic beauty, Adi prioritizes comfort and relaxation in a quality hotel setting, and Eyal is drawn to a specific culinary and cultural experience in Italy. There isn't explicit agreement on a destination or activity type yet, indicating potential divergence in priorities. The challenge will be to find common ground that satisfies the need for activity, comfort, and unique experiences.\",\n    \"questions\": {\n        \"Gaya\": \"It sounds like immersing yourself in nature and experiencing beautiful views through daily hikes is a key desire for you. Could you tell me a bit more about what makes these elements so important for a vacation? For instance, is it the physical activity, the specific type of scenery, or the sense of escape that truly resonates with you?\",\n        \"Adi\": \"Your desire for a nice hotel and a 'chill' experience suggests comfort and relaxation ...",
+      "parsed_questions": {
+        "Gaya": "It sounds like immersing yourself in nature and experiencing beautiful views through daily hikes is a key desire for you. Could you tell me a bit more about what makes these elements so important for a vacation? For instance, is it the physical activity, the specific type of scenery, or the sense of escape that truly resonates with you?",
+        "Adi": "Your desire for a nice hotel and a 'chill' experience suggests comfort and relaxation are paramount. Could you elaborate on what specifically constitutes a 'nice hotel' for you – is it about luxury amenities, service, or a particular ambiance? And what kind of environment allows you to truly relax and unwind on vacation?",
+        "Eyal": "It's clear that enjoying truly good pasta in Italy is a strong desire for your vacation. Could you share what makes this particular culinary experience so appealing? Is it the specific location of Italy that's most important, or is it the broader experience of authentic, high-quality regional cuisine and cultural immersion that you're seeking?"
+      }
+    },
+    {
+      "timestamp": "2025-12-22T13:14:51.687446",
+      "round": 2,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation\n\nThis is **Round 2** of the discussion. Here's the conversation history:\n\n**Round 1 Responses:**\n**Gaya:**\nI want to hike everyday in nature and see beautiful views\n\n**Adi:**\nI want to stay in a nice hotel and chill\n\n**Eyal:**\nI want to eat really good pasta in Italy\n\n\n**Round 2 Responses:**\n**Gaya:**\nit is the physical activity, doesn't have to be hard\n\n**Adi:**\nIt's about the opportunity to unwind. A 'n...",
+      "response": "```json\n{\n    \"analysis\": \"The discussion is clarifying core values rather than just initial preferences. Gaya has softened her stance on the intensity of physical activity, making it more about the *type* of experience (active, nature-based) rather than strenuous hiking. Adi has deepened his definition of 'nice hotel' to emphasize the *feeling* of unwinding, comfort, and quiet, indicating a need for a peaceful environment. Eyal has significantly broadened his preference from 'pasta in Italy' to 'good, authentic food' and explicitly stated that 'the rest doesn't matter much,' indicating high flexibility on location if culinary desires are met.\",\n    \"emerging_consensus\": \"There's a shared underlying desire for a quality experience, whether it's through activity, comfort, or food. Eyal's flexibility on location opens up possibilities for destinations that might accommodate both active nature experiences and comfortable, quiet relaxation. The clarification that 'activity doesn't have to ...",
+      "parsed_questions": {
+        "Gaya": "Gaya, valuing active nature views, if the group were to find a setting that also offered significant opportunities for relaxation and diverse culinary experiences, how might the *intensity* or *type* of daily activity be adjusted to satisfy the collective?",
+        "Adi": "Adi, prioritizing unwind, comfort, quiet, if the group explores options that include accessible natural beauty for gentle activity and renowned food experiences, what would be the most essential features of your 'nice hotel' that absolutely cannot be compromised to ensure your relaxation?",
+        "Eyal": "Eyal, with your focus on authentic, quality food, the group is exploring locations that offer either more emphasis on active nature experiences or serene, comfortable environments. Which of these two primary directions do you believe would best complement a truly exceptional culinary journey for the entire family?"
+      }
+    }
+  ],
+  "final_decision": {
+    "winner": "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)",
+    "votes": {
+      "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)": 2,
+      "Boutique Hotel in a Mediterranean Coastal Town with Hiking Trails (e.g., Amalfi Coast, Greek Islands)": 0,
+      "Gourmet Retreat near a European National Park/Nature Reserve (e.g., Dolomites with a luxury lodge, Provence/South of France with a culinary focus)": 1
+    }
+  },
+  "topic": "A family vacation",
+  "admin": "Gaya",
+  "invite_code": "YY2QUBPG",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "0bd7eba3-5870-4d91-b4b7-82a49a49f143": "Adi",
+    "ae038aeb-f449-4eff-b908-59fadb10d815": "Eyal"
+  },
+  "started_at": "2025-12-22T13:12:41.874906",
+  "member_count": 3,
+  "voting": {
+    "started_at": "2025-12-22T13:16:58.868853",
+    "options": [
+      {
+        "title": "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)",
+        "description": "A stay at a high-quality agriturismo (farm stay) in a region renowned for its food, wine, and beautiful rolling landscapes. Many such establishments offer comfortable accommodations, swimming pools, breakfast, and are situated in areas ideal for gentle walks, cycling, or exploring nature. Opportunities for cooking classes or local food tours can enhance the culinary aspect."
+      },
+      {
+        "title": "Boutique Hotel in a Mediterranean Coastal Town with Hiking Trails (e.g., Amalfi Coast, Greek Islands)",
+        "description": "Staying in a well-regarded boutique hotel in a picturesque coastal town known for its local cuisine and accessible scenic trails. These locations often boast stunning sea views, charming hotels with pools and good breakfast options, and opportunities for walks along coastal paths or into nearby hills."
+      },
+      {
+        "title": "Gourmet Retreat near a European National Park/Nature Reserve (e.g., Dolomites with a luxury lodge, Provence/South of France with a culinary focus)",
+        "description": "A stay at a high-end resort or lodge located close to a national park or significant natural area, with a strong emphasis on gourmet dining. This option prioritizes structured comfort and relaxation while providing direct access to nature for gentle exploration and high-quality culinary experiences."
+      }
+    ],
+    "votes": {
+      "32772003-356f-45c9-9567-44b8c10a869d": {
+        "member_name": "Gaya",
+        "option_index": 0,
+        "option_title": "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)",
+        "timestamp": "2025-12-22T13:17:28.203439"
+      },
+      "0bd7eba3-5870-4d91-b4b7-82a49a49f143": {
+        "member_name": "Adi",
+        "option_index": 0,
+        "option_title": "Agriturismo Experience in a Scenic Italian Region (e.g., Tuscany, Umbria)",
+        "timestamp": "2025-12-22T13:17:35.708122"
+      },
+      "ae038aeb-f449-4eff-b908-59fadb10d815": {
+        "member_name": "Eyal",
+        "option_index": 2,
+        "option_title": "Gourmet Retreat near a European National Park/Nature Reserve (e.g., Dolomites with a luxury lodge, Provence/South of France with a culinary focus)",
+        "timestamp": "2025-12-22T13:17:42.350668"
+      }
+    }
+  },
+  "completed_at": "2025-12-22T13:17:42.367158"
+}

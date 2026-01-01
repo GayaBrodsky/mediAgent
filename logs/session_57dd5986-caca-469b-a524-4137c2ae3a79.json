@@ -1,0 +1,54 @@
+{
+  "session_id": "57dd5986-caca-469b-a524-4137c2ae3a79",
+  "created_at": "2025-12-20T21:24:15.764492",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-20T21:24:15.764509",
+      "admin": "E4",
+      "topic": "Select a fruit to share"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-20T21:24:28.578959",
+      "member_id": "2806b38d-19c2-43b1-8ec8-42f12a5ca5d0",
+      "member_name": "R5"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-20T21:24:33.314694",
+      "member_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:24:33.327627",
+      "round": 1,
+      "question_count": 2
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-20T21:24:33.327614",
+      "questions": {
+        "023006e7-1c2c-4f52-bd46-25b1c0a8d79d": "Welcome to this group decision session!\n\nTopic: Select a fruit to share\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "2806b38d-19c2-43b1-8ec8-42f12a5ca5d0": "Welcome to this group decision session!\n\nTopic: Select a fruit to share\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "Select a fruit to share",
+  "admin": "E4",
+  "invite_code": "QCE4GWD5",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 86400,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "2806b38d-19c2-43b1-8ec8-42f12a5ca5d0": "R5"
+  },
+  "started_at": "2025-12-20T21:24:33.314681",
+  "member_count": 2
+}

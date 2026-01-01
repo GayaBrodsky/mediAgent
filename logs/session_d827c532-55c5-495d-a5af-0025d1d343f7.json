@@ -1,0 +1,100 @@
+{
+  "session_id": "d827c532-55c5-495d-a5af-0025d1d343f7",
+  "created_at": "2025-12-20T21:02:33.689688",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-20T21:02:33.689703",
+      "admin": "Eyal",
+      "topic": "Choose a fruit to eat together"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-20T21:03:04.727087",
+      "member_id": "5cebd6c2-6a6e-4b57-a6af-dd0260613559",
+      "member_name": "Raz"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-20T21:03:10.783411",
+      "member_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:03:10.798506",
+      "round": 1,
+      "question_count": 2
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-20T21:03:35.719469",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I want an apple"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-20T21:03:51.406887",
+      "round": 1,
+      "response_count": 1
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:03:55.101194",
+      "round": 2,
+      "question_count": 2
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-20T21:03:10.798495",
+      "questions": {
+        "df48fd76-eb54-4d9c-b637-c24e022a9261": "Welcome to this group decision session!\n\nTopic: Choose a fruit to eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "5cebd6c2-6a6e-4b57-a6af-dd0260613559": "Welcome to this group decision session!\n\nTopic: Choose a fruit to eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "df48fd76-eb54-4d9c-b637-c24e022a9261": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: Choose a fruit to eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want an apple",
+          "timestamp": "2025-12-20T21:03:35.719457"
+        }
+      },
+      "completed_at": "2025-12-20T21:03:51.406870",
+      "response_count": 1
+    },
+    "2": {
+      "started_at": "2025-12-20T21:03:55.101168",
+      "questions": {
+        "df48fd76-eb54-4d9c-b637-c24e022a9261": "Eyal, I see that you prefer an apple. Could you share more about why you chose an apple? Are there specific qualities you enjoy about apples? Also, if others in the group suggest different fruits, how open are you to considering other options that might have similar benefits or appeal?",
+        "5cebd6c2-6a6e-4b57-a6af-dd0260613559": "Based on the discussion so far, what are your thoughts on Choose a fruit to eat together?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-20T21:03:55.077238",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** Choose a fruit to eat together\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Eyal:**\nI want an apple\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question for EACH participant that:\n   - Acknowledges their perspective\n   - Probes deeper into their reasoning\n   - Explores potential flexibi...",
+      "response": "```json\n{\n    \"analysis\": \"Currently, we have only one participant, Eyal, who has expressed a preference for an apple. With no other participants providing input, we do not yet have a complete set of perspectives to analyze common ground or disagreements. At this stage, we need to explore Eyal's choice further and understand any flexibility or underlying reasons for the preference.\",\n    \"questions\": {\n        \"eyal\": \"Eyal, I see that you prefer an apple. Could you share more about why you chose an apple? Are there specific qualities you enjoy about apples? Also, if others in the group suggest different fruits, how open are you to considering other options that might have similar benefits or appeal?\"\n    }\n}\n```",
+      "parsed_questions": {
+        "eyal": "Eyal, I see that you prefer an apple. Could you share more about why you chose an apple? Are there specific qualities you enjoy about apples? Also, if others in the group suggest different fruits, how open are you to considering other options that might have similar benefits or appeal?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "Choose a fruit to eat together",
+  "admin": "Eyal",
+  "invite_code": "4CBN24KF",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 86400,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "5cebd6c2-6a6e-4b57-a6af-dd0260613559": "Raz"
+  },
+  "started_at": "2025-12-20T21:03:10.783395",
+  "member_count": 2
+}

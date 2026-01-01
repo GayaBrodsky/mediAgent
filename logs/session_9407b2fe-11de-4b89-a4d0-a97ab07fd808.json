@@ -1,0 +1,54 @@
+{
+  "session_id": "9407b2fe-11de-4b89-a4d0-a97ab07fd808",
+  "created_at": "2025-12-20T21:21:15.319959",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-20T21:21:15.319974",
+      "admin": "E3",
+      "topic": "Select a fruit to eat together"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-20T21:21:47.479563",
+      "member_id": "018fb5bc-fbd1-4781-89f2-bd3257dc1bb2",
+      "member_name": "R4"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-20T21:21:56.762539",
+      "member_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:21:56.776256",
+      "round": 1,
+      "question_count": 2
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-20T21:21:56.776246",
+      "questions": {
+        "c1e5d0c6-f5a8-428d-9ae1-de683a4309ae": "Welcome to this group decision session!\n\nTopic: Select a fruit to eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "018fb5bc-fbd1-4781-89f2-bd3257dc1bb2": "Welcome to this group decision session!\n\nTopic: Select a fruit to eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "Select a fruit to eat together",
+  "admin": "E3",
+  "invite_code": "DPZ2NFHF",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 86400,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "018fb5bc-fbd1-4781-89f2-bd3257dc1bb2": "R4"
+  },
+  "started_at": "2025-12-20T21:21:56.762526",
+  "member_count": 2
+}

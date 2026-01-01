@@ -1,0 +1,114 @@
+{
+  "session_id": "08dc65b4-004a-4c72-8459-775ba2d1d6db",
+  "created_at": "2025-12-20T20:59:35.238372",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-20T20:59:35.238387",
+      "admin": "Eyal",
+      "topic": "Choose a fruit to divide and eat together"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-20T20:59:47.711999",
+      "member_id": "fb53b2dc-9219-44d2-a361-0b6998dba5e4",
+      "member_name": "Raz"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-20T21:00:08.920426",
+      "member_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:00:08.933568",
+      "round": 1,
+      "question_count": 2
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-20T21:00:45.054385",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I like bananas, melon, watermelon, avocado"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-20T21:01:12.287993",
+      "round": 1,
+      "member_name": "Raz",
+      "response_preview": "I want apples"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-20T21:01:12.301025",
+      "round": 1,
+      "response_count": 2
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-20T21:01:17.210191",
+      "round": 2,
+      "question_count": 2
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-20T21:00:08.933558",
+      "questions": {
+        "6e5a0b26-36ee-47d4-8e1c-1332d72993c0": "Welcome to this group decision session!\n\nTopic: Choose a fruit to divide and eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "fb53b2dc-9219-44d2-a361-0b6998dba5e4": "Welcome to this group decision session!\n\nTopic: Choose a fruit to divide and eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "6e5a0b26-36ee-47d4-8e1c-1332d72993c0": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: Choose a fruit to divide and eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I like bananas, melon, watermelon, avocado",
+          "timestamp": "2025-12-20T21:00:45.054356"
+        },
+        "fb53b2dc-9219-44d2-a361-0b6998dba5e4": {
+          "member_name": "Raz",
+          "question": "Welcome to this group decision session!\n\nTopic: Choose a fruit to divide and eat together\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want apples",
+          "timestamp": "2025-12-20T21:01:12.287978"
+        }
+      },
+      "completed_at": "2025-12-20T21:01:12.301014",
+      "response_count": 2
+    },
+    "2": {
+      "started_at": "2025-12-20T21:01:17.210169",
+      "questions": {
+        "6e5a0b26-36ee-47d4-8e1c-1332d72993c0": "I see you enjoy a variety of fruits like bananas and melons. Could you share what you like most about these fruits, and if there might be room to consider including apples in our selection, perhaps if paired with one of your favorites?",
+        "fb53b2dc-9219-44d2-a361-0b6998dba5e4": "You mentioned a preference for apples. Could you elaborate on what makes apples your top choice? Also, would you be open to trying one of the fruits Eyal enjoys, like watermelon, alongside apples for variety?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-20T21:01:17.186867",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** Choose a fruit to divide and eat together\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Eyal:**\nI like bananas, melon, watermelon, avocado\n\n**Raz:**\nI want apples\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question for EACH participant that:\n   - Acknowledges their perspective\n   - Prob...",
+      "response": "```json\n{\n    \"analysis\": \"Eyal has expressed a preference for bananas, melon, watermelon, and avocado, indicating a liking for a variety of fruits, including both sweet and creamy options. Raz, on the other hand, has specifically mentioned a preference for apples, which suggests a narrower focus on a single type of fruit. There is currently no overlap in their preferences, which indicates a disagreement in their fruit choices. However, both participants seem open to discussing fruits, which is a common ground that can be explored further.\",\n    \"questions\": {\n        \"Eyal\": \"I see you enjoy a variety of fruits like bananas and melons. Could you share what you like most about these fruits, and if there might be room to consider including apples in our selection, perhaps if paired with one of your favorites?\",\n        \"Raz\": \"You mentioned a preference for apples. Could you elaborate on what makes apples your top choice? Also, would you be open to trying one of the fruits Eyal enjoys, ...",
+      "parsed_questions": {
+        "Eyal": "I see you enjoy a variety of fruits like bananas and melons. Could you share what you like most about these fruits, and if there might be room to consider including apples in our selection, perhaps if paired with one of your favorites?",
+        "Raz": "You mentioned a preference for apples. Could you elaborate on what makes apples your top choice? Also, would you be open to trying one of the fruits Eyal enjoys, like watermelon, alongside apples for variety?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "Choose a fruit to divide and eat together",
+  "admin": "Eyal",
+  "invite_code": "S4LDW92L",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 86400,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "fb53b2dc-9219-44d2-a361-0b6998dba5e4": "Raz"
+  },
+  "started_at": "2025-12-20T21:00:08.920412",
+  "member_count": 2
+}

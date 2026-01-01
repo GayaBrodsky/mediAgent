@@ -1,0 +1,329 @@
+{
+  "session_id": "b8ecdbe7-e86e-42ac-9632-47573b5bd862",
+  "created_at": "2025-12-21T12:28:52.467818",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-21T12:28:52.467818",
+      "admin": "Gaya",
+      "topic": "family vacation for 10 days abroad"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T12:29:19.869159",
+      "member_id": "19c83ddc-3ca1-4120-b516-9f763d055ce0",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T12:29:35.521817",
+      "member_id": "e46ca481-292c-4fff-8e57-01edf6bab5b7",
+      "member_name": "Adi"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-21T12:30:18.752240",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T12:30:18.765924",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:30:30.824770",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "i want to go on hikes in nature"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:30:41.079493",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "i want to stay in a nice hotel"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:30:54.722517",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "i want to go to italy and eat a lot of pasta"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T12:30:54.732261",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T12:31:05.427821",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:33:38.950554",
+      "round": 2,
+      "member_name": "Gaya",
+      "response_preview": "i can walk anywhere, doesnt have to be nature. the level of hiking should be chill but somewhat long..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:35:30.469852",
+      "round": 2,
+      "member_name": "Adi",
+      "response_preview": "yes i am down for nature. as long as i can come back to a nice hotel, at least 4 stars. this is what..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:36:03.826901",
+      "round": 2,
+      "member_name": "Adi",
+      "response_preview": "as i said"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T12:36:03.841328",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T12:36:10.470044",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:37:17.568149",
+      "round": 3,
+      "member_name": "Adi",
+      "response_preview": "i mainly want to eat good pasta in italy. i don't care where."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:37:27.967975",
+      "round": 3,
+      "member_name": "Adi",
+      "response_preview": "as i said"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:38:11.637502",
+      "round": 3,
+      "member_name": "Gaya",
+      "response_preview": "whatever really, i just want to move my body."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T12:38:11.653100",
+      "round": 3,
+      "response_count": 3
+    },
+    {
+      "type": "voting_started",
+      "timestamp": "2025-12-21T12:38:24.066200",
+      "option_count": 3
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-21T12:39:36.934967",
+      "member_name": "Gaya",
+      "option": "Tuscan Hill Towns & Countryside Retreat"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-21T12:39:43.881574",
+      "member_name": "Adi",
+      "option": "Amalfi Coast & Coastal Path Exploration"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2025-12-21T12:39:50.066741",
+      "member_name": "Adi",
+      "option": "Tuscan Hill Towns & Countryside Retreat"
+    },
+    {
+      "type": "session_completed",
+      "timestamp": "2025-12-21T12:39:50.087725"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-21T12:30:18.765924",
+      "questions": {
+        "03628fe4-5ed9-40be-b225-f0fdbad95b04": "Welcome to this group decision session!\n\nTopic: family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "19c83ddc-3ca1-4120-b516-9f763d055ce0": "Welcome to this group decision session!\n\nTopic: family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "e46ca481-292c-4fff-8e57-01edf6bab5b7": "Welcome to this group decision session!\n\nTopic: family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "03628fe4-5ed9-40be-b225-f0fdbad95b04": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to go on hikes in nature",
+          "timestamp": "2025-12-21T12:30:30.824770"
+        },
+        "19c83ddc-3ca1-4120-b516-9f763d055ce0": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to stay in a nice hotel",
+          "timestamp": "2025-12-21T12:30:41.079493"
+        },
+        "e46ca481-292c-4fff-8e57-01edf6bab5b7": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: family vacation for 10 days abroad\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to go to italy and eat a lot of pasta",
+          "timestamp": "2025-12-21T12:30:54.722517"
+        }
+      },
+      "completed_at": "2025-12-21T12:30:54.732261",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-21T12:31:05.427821",
+      "questions": {
+        "03628fe4-5ed9-40be-b225-f0fdbad95b04": "Gaya, your desire for hikes in nature is very clear. Could you tell us a bit more about what kind of natural landscapes you envision – perhaps mountains, forests, coastal paths, or something else? And on a scale of 'gentle strolls' to 'challenging treks,' what level of hiking are you hoping for? I'm also curious if you see this as the main activity every day, or if you'd be open to days with different types of exploration, perhaps even in a region known for both its natural beauty and its culinary delights, like Adi mentioned?",
+        "19c83ddc-3ca1-4120-b516-9f763d055ce0": "Adi, it sounds like comfort, good food, and the specific charm of Italy are high on your list. When you say 'nice hotel,' what specific features or services are most important to you for a truly comfortable stay? And beyond the delicious pasta, what other aspects of Italian culture or experience are you most excited about? I'm curious if you've considered any regions in Italy that might beautifully blend the culinary and comfort aspects you're looking for with the kind of natural landscapes Gaya is hoping to explore, potentially offering a bit of both worlds?",
+        "e46ca481-292c-4fff-8e57-01edf6bab5b7": "Based on the discussion so far, what are your thoughts on family vacation for 10 days abroad?"
+      },
+      "responses": {
+        "03628fe4-5ed9-40be-b225-f0fdbad95b04": {
+          "member_name": "Gaya",
+          "question": "Gaya, your desire for hikes in nature is very clear. Could you tell us a bit more about what kind of natural landscapes you envision – perhaps mountains, forests, coastal paths, or something else? And on a scale of 'gentle strolls' to 'challenging treks,' what level of hiking are you hoping for? I'm also curious if you see this as the main activity every day, or if you'd be open to days with different types of exploration, perhaps even in a region known for both its natural beauty and its culinary delights, like Adi mentioned?",
+          "response": "i can walk anywhere, doesnt have to be nature. the level of hiking should be chill but somewhat long. i mainly want to move my body",
+          "timestamp": "2025-12-21T12:33:38.950554"
+        },
+        "19c83ddc-3ca1-4120-b516-9f763d055ce0": {
+          "member_name": "Adi",
+          "question": "Adi, it sounds like comfort, good food, and the specific charm of Italy are high on your list. When you say 'nice hotel,' what specific features or services are most important to you for a truly comfortable stay? And beyond the delicious pasta, what other aspects of Italian culture or experience are you most excited about? I'm curious if you've considered any regions in Italy that might beautifully blend the culinary and comfort aspects you're looking for with the kind of natural landscapes Gaya is hoping to explore, potentially offering a bit of both worlds?",
+          "response": "yes i am down for nature. as long as i can come back to a nice hotel, at least 4 stars. this is what i care mainly",
+          "timestamp": "2025-12-21T12:35:30.469852"
+        },
+        "e46ca481-292c-4fff-8e57-01edf6bab5b7": {
+          "member_name": "Adi",
+          "question": "Based on the discussion so far, what are your thoughts on family vacation for 10 days abroad?",
+          "response": "as i said",
+          "timestamp": "2025-12-21T12:36:03.826901"
+        }
+      },
+      "completed_at": "2025-12-21T12:36:03.841328",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2025-12-21T12:36:10.470044",
+      "questions": {
+        "03628fe4-5ed9-40be-b225-f0fdbad95b04": "Gaya, you've clarified your desire for 'chill but somewhat long walks' to 'move your body,' not necessarily confined to nature. If we were to find a destination that offered a 4-star hotel for Adi, what kind of walking experiences — perhaps exploring towns, coastal paths, or gentle trails — would be most appealing to you within that framework?",
+        "19c83ddc-3ca1-4120-b516-9f763d055ce0": "Adi, you've confirmed your openness to nature as long as a 4-star hotel is available, which is a great step. Thinking about your initial mention of Italy and pasta, how important is the destination itself compared to ensuring you have that comfortable hotel base and opportunities for some nature exploration?",
+        "e46ca481-292c-4fff-8e57-01edf6bab5b7": "Based on the discussion so far, what are your thoughts on family vacation for 10 days abroad?"
+      },
+      "responses": {
+        "19c83ddc-3ca1-4120-b516-9f763d055ce0": {
+          "member_name": "Adi",
+          "question": "Adi, you've confirmed your openness to nature as long as a 4-star hotel is available, which is a great step. Thinking about your initial mention of Italy and pasta, how important is the destination itself compared to ensuring you have that comfortable hotel base and opportunities for some nature exploration?",
+          "response": "i mainly want to eat good pasta in italy. i don't care where.",
+          "timestamp": "2025-12-21T12:37:17.568149"
+        },
+        "e46ca481-292c-4fff-8e57-01edf6bab5b7": {
+          "member_name": "Adi",
+          "question": "Based on the discussion so far, what are your thoughts on family vacation for 10 days abroad?",
+          "response": "as i said",
+          "timestamp": "2025-12-21T12:37:27.967975"
+        },
+        "03628fe4-5ed9-40be-b225-f0fdbad95b04": {
+          "member_name": "Gaya",
+          "question": "Gaya, you've clarified your desire for 'chill but somewhat long walks' to 'move your body,' not necessarily confined to nature. If we were to find a destination that offered a 4-star hotel for Adi, what kind of walking experiences — perhaps exploring towns, coastal paths, or gentle trails — would be most appealing to you within that framework?",
+          "response": "whatever really, i just want to move my body.",
+          "timestamp": "2025-12-21T12:38:11.637502"
+        }
+      },
+      "completed_at": "2025-12-21T12:38:11.653100",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-21T12:31:05.412380",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** family vacation for 10 days abroad\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Gaya:**\ni want to go on hikes in nature\n\n**Adi:**\ni want to stay in a nice hotel\n\n**Adi:**\ni want to go to italy and eat a lot of pasta\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question for EACH participa...",
+      "response": "```json\n{\n    \"analysis\": \"The initial responses reveal two distinct sets of priorities. Gaya is clearly focused on an active, nature-oriented experience, specifically hiking. Adi, on the other hand, prioritizes comfort and relaxation (a nice hotel), and has a strong desire for a specific destination (Italy) with a focus on culinary experiences (pasta). At this stage, there isn't explicit common ground beyond the general idea of a 10-day international family vacation. The main areas of potential divergence lie in the type of activities (active outdoors vs. relaxed/culinary) and the primary focus of the destination (pure nature vs. cultural/food-centric, although many destinations can offer a blend).\",\n    \"questions\": {\n        \"Gaya\": \"Gaya, your desire for hikes in nature is very clear. Could you tell us a bit more about what kind of natural landscapes you envision – perhaps mountains, forests, coastal paths, or something else? And on a scale of 'gentle strolls' to 'challenging treks...",
+      "parsed_questions": {
+        "Gaya": "Gaya, your desire for hikes in nature is very clear. Could you tell us a bit more about what kind of natural landscapes you envision – perhaps mountains, forests, coastal paths, or something else? And on a scale of 'gentle strolls' to 'challenging treks,' what level of hiking are you hoping for? I'm also curious if you see this as the main activity every day, or if you'd be open to days with different types of exploration, perhaps even in a region known for both its natural beauty and its culinary delights, like Adi mentioned?",
+        "Adi": "Adi, it sounds like comfort, good food, and the specific charm of Italy are high on your list. When you say 'nice hotel,' what specific features or services are most important to you for a truly comfortable stay? And beyond the delicious pasta, what other aspects of Italian culture or experience are you most excited about? I'm curious if you've considered any regions in Italy that might beautifully blend the culinary and comfort aspects you're looking for with the kind of natural landscapes Gaya is hoping to explore, potentially offering a bit of both worlds?"
+      }
+    },
+    {
+      "timestamp": "2025-12-21T12:36:10.451471",
+      "round": 2,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** family vacation for 10 days abroad\n\nThis is **Round 2** of the discussion. Here's the conversation history:\n\n**Round 1 Responses:**\n**Gaya:**\ni want to go on hikes in nature\n\n**Adi:**\ni want to stay in a nice hotel\n\n**Adi:**\ni want to go to italy and eat a lot of pasta\n\n\n**Round 2 Responses:**\n**Gaya:**\ni can walk anywhere, doesnt have to be nature. the level of hiking should be chill but somewhat long. i mainly want to mo...",
+      "response": "```json\n{\n    \"analysis\": \"Gaya has clarified her desire for physical activity, broadening it from strict 'hikes in nature' to 'walk anywhere' as long as it's 'chill but somewhat long' and allows her to 'move her body.' This makes her preference more flexible. Adi has shown significant movement by expressing he is 'down for nature,' which directly addresses Gaya's initial request. However, he has firmly reiterated his non-negotiable requirement for a 'nice hotel, at least 4 stars,' clarifying that this is his main care. His initial mention of Italy and pasta from Round 1 has not been re-emphasized in Round 2, suggesting the hotel and nature (with the hotel condition) are currently his primary focus.\",\n    \"emerging_consensus\": \"Both participants are now open to incorporating 'nature' or 'walking' into the vacation. The idea of a destination that offers opportunities for 'chill but somewhat long walks' combined with a '4-star hotel' is emerging as a strong potential area of agreement.\",...",
+      "parsed_questions": {
+        "Gaya": "Gaya, you've clarified your desire for 'chill but somewhat long walks' to 'move your body,' not necessarily confined to nature. If we were to find a destination that offered a 4-star hotel for Adi, what kind of walking experiences — perhaps exploring towns, coastal paths, or gentle trails — would be most appealing to you within that framework?",
+        "Adi": "Adi, you've confirmed your openness to nature as long as a 4-star hotel is available, which is a great step. Thinking about your initial mention of Italy and pasta, how important is the destination itself compared to ensuring you have that comfortable hotel base and opportunities for some nature exploration?"
+      }
+    }
+  ],
+  "final_decision": {
+    "winner": "Tuscan Hill Towns & Countryside Retreat",
+    "votes": {
+      "Tuscan Hill Towns & Countryside Retreat": 2,
+      "Amalfi Coast & Coastal Path Exploration": 1,
+      "Lake Como & Lakeside Strolls": 0
+    }
+  },
+  "topic": "family vacation for 10 days abroad",
+  "admin": "Gaya",
+  "invite_code": "QYH4CKMM",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "19c83ddc-3ca1-4120-b516-9f763d055ce0": "Adi",
+    "e46ca481-292c-4fff-8e57-01edf6bab5b7": "Adi"
+  },
+  "started_at": "2025-12-21T12:30:18.752240",
+  "member_count": 3,
+  "voting": {
+    "started_at": "2025-12-21T12:38:24.066200",
+    "options": [
+      {
+        "title": "Tuscan Hill Towns & Countryside Retreat",
+        "description": "Stay in a luxurious 4-star or higher agriturismo or boutique hotel nestled in the Tuscan countryside or near charming hill towns like Siena, Florence, or San Gimignano. This allows for daily walks through vineyards, olive groves, and the picturesque streets of medieval towns. Culinary experiences would focus on authentic Tuscan pasta dishes and local wines."
+      },
+      {
+        "title": "Amalfi Coast & Coastal Path Exploration",
+        "description": "Book a 4-star or higher hotel in a scenic Amalfi Coast town such as Positano, Ravello, or Amalfi itself. The region offers famous coastal walking paths like the 'Path of the Gods' (Sentiero degli Dei), which provides stunning views and opportunities for movement. The local cuisine is renowned for fresh seafood and delicious pasta dishes."
+      },
+      {
+        "title": "Lake Como & Lakeside Strolls",
+        "description": "Secure a stay at a 4-star or higher hotel on the shores of Lake Como, in towns like Bellagio, Varenna, or Menaggio. Activities would include leisurely walks along the lakeside promenades, exploring charming villages, and taking boat trips. There are also gentler trails in the surrounding hills for those who wish to venture further. Dining options would include refined Italian cuisine, featuring pasta dishes."
+      }
+    ],
+    "votes": {
+      "03628fe4-5ed9-40be-b225-f0fdbad95b04": {
+        "member_name": "Gaya",
+        "option_index": 0,
+        "option_title": "Tuscan Hill Towns & Countryside Retreat",
+        "timestamp": "2025-12-21T12:39:36.934967"
+      },
+      "e46ca481-292c-4fff-8e57-01edf6bab5b7": {
+        "member_name": "Adi",
+        "option_index": 1,
+        "option_title": "Amalfi Coast & Coastal Path Exploration",
+        "timestamp": "2025-12-21T12:39:43.881574"
+      },
+      "19c83ddc-3ca1-4120-b516-9f763d055ce0": {
+        "member_name": "Adi",
+        "option_index": 0,
+        "option_title": "Tuscan Hill Towns & Countryside Retreat",
+        "timestamp": "2025-12-21T12:39:50.066741"
+      }
+    }
+  },
+  "completed_at": "2025-12-21T12:39:50.087725"
+}

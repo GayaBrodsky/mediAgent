@@ -1,0 +1,110 @@
+{
+  "session_id": "a698bff5-baa0-4ebe-82b0-34254af95e5f",
+  "created_at": "2025-12-22T12:27:52.331911",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-22T12:27:52.331911",
+      "admin": "Gaya",
+      "topic": "A Family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T12:28:11.045012",
+      "member_id": "6f02a89e-7c7c-4248-abd0-e3e671ef14cc",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T12:28:19.177246",
+      "member_id": "59d90c98-804c-499b-af88-54c0866e8f19",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-22T12:28:23.478399",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T12:28:23.489213",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:28:34.504262",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "I want to hike everyday in nature and see beautiful views"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:28:41.872824",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "I want to stay in a nice hotel and chill"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:28:47.841170",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I want to eat really good pasta in Italy"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T12:28:47.852810",
+      "round": 1,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-22T12:28:23.489213",
+      "questions": {
+        "d693cf7d-2b0f-4e2c-b944-1895217f3ec9": "Welcome to this group decision session!\n\nTopic: A Family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "6f02a89e-7c7c-4248-abd0-e3e671ef14cc": "Welcome to this group decision session!\n\nTopic: A Family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "59d90c98-804c-499b-af88-54c0866e8f19": "Welcome to this group decision session!\n\nTopic: A Family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "d693cf7d-2b0f-4e2c-b944-1895217f3ec9": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: A Family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to hike everyday in nature and see beautiful views",
+          "timestamp": "2025-12-22T12:28:34.504262"
+        },
+        "6f02a89e-7c7c-4248-abd0-e3e671ef14cc": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: A Family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to stay in a nice hotel and chill",
+          "timestamp": "2025-12-22T12:28:41.872824"
+        },
+        "59d90c98-804c-499b-af88-54c0866e8f19": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: A Family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to eat really good pasta in Italy",
+          "timestamp": "2025-12-22T12:28:47.841170"
+        }
+      },
+      "completed_at": "2025-12-22T12:28:47.852810",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "A Family vacation",
+  "admin": "Gaya",
+  "invite_code": "S45QKNKT",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "6f02a89e-7c7c-4248-abd0-e3e671ef14cc": "Adi",
+    "59d90c98-804c-499b-af88-54c0866e8f19": "Eyal"
+  },
+  "started_at": "2025-12-22T12:28:23.478399",
+  "member_count": 3
+}

@@ -1,0 +1,137 @@
+{
+  "session_id": "167476c5-7615-47e7-a3d6-210aa8731a9c",
+  "created_at": "2025-12-22T11:05:55.323250",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-22T11:05:55.323250",
+      "admin": "Gaya",
+      "topic": "vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T11:06:08.762306",
+      "member_id": "d26e9ecb-0892-4359-abb0-930e390e18c9",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T11:06:17.713933",
+      "member_id": "5390eeea-252a-49cc-914d-a26fcd2d74f5",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-22T11:06:20.515142",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T11:06:20.524765",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T11:06:48.779119",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "I want to hike everyday in nature and see beautiful views"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T11:06:52.559610",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "I want to stay in a nice hotel and chill"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T11:06:56.226123",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I want to eat really good pasta in Italy"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T11:06:56.236585",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T11:07:23.021772",
+      "round": 2,
+      "question_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-22T11:06:20.524765",
+      "questions": {
+        "877f47e9-e904-4109-a4d7-dd8bf00dbc68": "Welcome to this group decision session!\n\nTopic: vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "d26e9ecb-0892-4359-abb0-930e390e18c9": "Welcome to this group decision session!\n\nTopic: vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "5390eeea-252a-49cc-914d-a26fcd2d74f5": "Welcome to this group decision session!\n\nTopic: vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "877f47e9-e904-4109-a4d7-dd8bf00dbc68": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to hike everyday in nature and see beautiful views",
+          "timestamp": "2025-12-22T11:06:48.779119"
+        },
+        "d26e9ecb-0892-4359-abb0-930e390e18c9": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to stay in a nice hotel and chill",
+          "timestamp": "2025-12-22T11:06:52.559610"
+        },
+        "5390eeea-252a-49cc-914d-a26fcd2d74f5": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to eat really good pasta in Italy",
+          "timestamp": "2025-12-22T11:06:56.226123"
+        }
+      },
+      "completed_at": "2025-12-22T11:06:56.236585",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-22T11:07:23.021772",
+      "questions": {
+        "877f47e9-e904-4109-a4d7-dd8bf00dbc68": "Gaya, you've expressed a strong interest in daily hiking amidst nature and seeing beautiful views. Could you elaborate on what kind of 'beautiful views' particularly resonate with you, and how important is it for you to be hiking *every single day* versus perhaps a few days with other activities woven in?",
+        "d26e9ecb-0892-4359-abb0-930e390e18c9": "Adi, your preference for a nice hotel and time to relax is clear. Could you share a bit more about what 'chilling' ideally looks like for you? For instance, does it involve specific amenities at the hotel, or opportunities for gentle exploration from a comfortable base?",
+        "5390eeea-252a-49cc-914d-a26fcd2d74f5": "Eyal, you've highlighted a desire to enjoy really good pasta in Italy. What specifically draws you to Italy for this experience – is it the culinary tradition, the cultural ambiance, or perhaps a combination? And, thinking about the overall trip, how important is it for this culinary focus to be the *primary* activity versus being a significant highlight within a broader experience?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-22T11:07:23.006486",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** vacation\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Gaya:**\nI want to hike everyday in nature and see beautiful views\n\n**Adi:**\nI want to stay in a nice hotel and chill\n\n**Eyal:**\nI want to eat really good pasta in Italy\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question for EACH pa...",
+      "response": "```json\n{\n    \"analysis\": \"The group's initial preferences highlight a clear divergence in desired vacation styles. Gaya prioritizes an active, nature-focused experience, emphasizing daily hiking and scenic views. Adi seeks relaxation and comfort, centered around a nice hotel. Eyal has a specific cultural and culinary interest in experiencing good pasta in Italy. Key areas for exploration include balancing activity with relaxation, integrating specific cultural/culinary experiences with broader vacation themes, and finding a location that can accommodate diverse interests in nature, comfort, and gastronomy.\",\n    \"questions\": {\n        \"Gaya\": \"Gaya, you've expressed a strong interest in daily hiking amidst nature and seeing beautiful views. Could you elaborate on what kind of 'beautiful views' particularly resonate with you, and how important is it for you to be hiking *every single day* versus perhaps a few days with other activities woven in?\",\n        \"Adi\": \"Adi, your preference f...",
+      "parsed_questions": {
+        "Gaya": "Gaya, you've expressed a strong interest in daily hiking amidst nature and seeing beautiful views. Could you elaborate on what kind of 'beautiful views' particularly resonate with you, and how important is it for you to be hiking *every single day* versus perhaps a few days with other activities woven in?",
+        "Adi": "Adi, your preference for a nice hotel and time to relax is clear. Could you share a bit more about what 'chilling' ideally looks like for you? For instance, does it involve specific amenities at the hotel, or opportunities for gentle exploration from a comfortable base?",
+        "Eyal": "Eyal, you've highlighted a desire to enjoy really good pasta in Italy. What specifically draws you to Italy for this experience – is it the culinary tradition, the cultural ambiance, or perhaps a combination? And, thinking about the overall trip, how important is it for this culinary focus to be the *primary* activity versus being a significant highlight within a broader experience?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "vacation",
+  "admin": "Gaya",
+  "invite_code": "MT9YZ8TA",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "d26e9ecb-0892-4359-abb0-930e390e18c9": "Adi",
+    "5390eeea-252a-49cc-914d-a26fcd2d74f5": "Eyal"
+  },
+  "started_at": "2025-12-22T11:06:20.515142",
+  "member_count": 3
+}

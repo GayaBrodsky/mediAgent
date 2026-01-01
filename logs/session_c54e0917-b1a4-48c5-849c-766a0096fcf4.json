@@ -1,0 +1,259 @@
+{
+  "session_id": "c54e0917-b1a4-48c5-849c-766a0096fcf4",
+  "created_at": "2025-12-22T12:52:59.984569",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-22T12:52:59.984569",
+      "admin": "Gaya",
+      "topic": "A family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T12:53:15.268048",
+      "member_id": "493dfd10-89fb-45d3-803b-3c26632a7696",
+      "member_name": "Adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-22T12:53:21.480239",
+      "member_id": "74624d0f-5ef2-4b81-b569-a1c54fe36a75",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-22T12:53:26.731293",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T12:53:26.746861",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:53:36.672840",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "I want to hike everyday in nature and see beautiful views"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:53:45.653599",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "I want to stay in a nice hotel and chill"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:53:54.720730",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "I want to eat really good pasta in Italy"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T12:53:54.748078",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T12:54:07.606358",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:54:45.016778",
+      "round": 2,
+      "member_name": "Gaya",
+      "response_preview": "I don't need a physical challenge; I just want to feel connected to the environment and the mountain..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:55:21.226966",
+      "round": 2,
+      "member_name": "Adi",
+      "response_preview": "A 'nice hotel' means comfort and quiet where I can truly de-stress without any rush."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:56:04.762286",
+      "round": 2,
+      "member_name": "Eyal",
+      "response_preview": "I just want to eat really good, authentic food. The rest doesn't matter much."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T12:56:04.775485",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-22T12:56:18.120943",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:56:37.419826",
+      "round": 3,
+      "member_name": "Gaya",
+      "response_preview": "Sounds good to me!"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:57:10.581372",
+      "round": 3,
+      "member_name": "Adi",
+      "response_preview": "As long as I come back to the hotel and have some time in the pool, I'm good"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-22T12:57:26.246487",
+      "round": 3,
+      "member_name": "Eyal",
+      "response_preview": "sounds great."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-22T12:57:26.262529",
+      "round": 3,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-22T12:53:26.746861",
+      "questions": {
+        "eae46038-1876-471b-ab61-7905c09d85ca": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "493dfd10-89fb-45d3-803b-3c26632a7696": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "74624d0f-5ef2-4b81-b569-a1c54fe36a75": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "eae46038-1876-471b-ab61-7905c09d85ca": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to hike everyday in nature and see beautiful views",
+          "timestamp": "2025-12-22T12:53:36.672840"
+        },
+        "493dfd10-89fb-45d3-803b-3c26632a7696": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to stay in a nice hotel and chill",
+          "timestamp": "2025-12-22T12:53:45.653599"
+        },
+        "74624d0f-5ef2-4b81-b569-a1c54fe36a75": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to eat really good pasta in Italy",
+          "timestamp": "2025-12-22T12:53:54.720730"
+        }
+      },
+      "completed_at": "2025-12-22T12:53:54.748078",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-22T12:54:07.606358",
+      "questions": {
+        "eae46038-1876-471b-ab61-7905c09d85ca": "Gaya, you've expressed a strong desire for daily hiking amidst beautiful natural scenery. To better understand what makes this so important for your ideal vacation, could you share what specific aspects of nature and views are most appealing, and how crucial it is for you to engage in a significant hike *every* day, especially when considering how we might balance various group interests?",
+        "493dfd10-89fb-45d3-803b-3c26632a7696": "Adi, your focus on staying in a nice hotel and having time to chill is clear. To help us understand the ideal setup for your relaxation, could you tell us what specific amenities or comforts define a 'nice hotel' for you, and how you imagine 'chilling' ideally fitting into the overall pace of a group vacation that might also include exploration or specific activities?",
+        "74624d0f-5ef2-4b81-b569-a1c54fe36a75": "Eyal, your enthusiasm for eating really good pasta in Italy is very distinct. To explore this further, could you elaborate on what kind of culinary experience you envision beyond just the pasta, and how important the specific destination of 'Italy' is to achieving that experience, particularly when we consider the diverse preferences emerging within the group for different types of activities and settings?"
+      },
+      "responses": {
+        "eae46038-1876-471b-ab61-7905c09d85ca": {
+          "member_name": "Gaya",
+          "question": "Gaya, you've expressed a strong desire for daily hiking amidst beautiful natural scenery. To better understand what makes this so important for your ideal vacation, could you share what specific aspects of nature and views are most appealing, and how crucial it is for you to engage in a significant hike *every* day, especially when considering how we might balance various group interests?",
+          "response": "I don't need a physical challenge; I just want to feel connected to the environment and the mountains.",
+          "timestamp": "2025-12-22T12:54:45.016778"
+        },
+        "493dfd10-89fb-45d3-803b-3c26632a7696": {
+          "member_name": "Adi",
+          "question": "Adi, your focus on staying in a nice hotel and having time to chill is clear. To help us understand the ideal setup for your relaxation, could you tell us what specific amenities or comforts define a 'nice hotel' for you, and how you imagine 'chilling' ideally fitting into the overall pace of a group vacation that might also include exploration or specific activities?",
+          "response": "A 'nice hotel' means comfort and quiet where I can truly de-stress without any rush.",
+          "timestamp": "2025-12-22T12:55:21.226966"
+        },
+        "74624d0f-5ef2-4b81-b569-a1c54fe36a75": {
+          "member_name": "Eyal",
+          "question": "Eyal, your enthusiasm for eating really good pasta in Italy is very distinct. To explore this further, could you elaborate on what kind of culinary experience you envision beyond just the pasta, and how important the specific destination of 'Italy' is to achieving that experience, particularly when we consider the diverse preferences emerging within the group for different types of activities and settings?",
+          "response": "I just want to eat really good, authentic food. The rest doesn't matter much.",
+          "timestamp": "2025-12-22T12:56:04.762286"
+        }
+      },
+      "completed_at": "2025-12-22T12:56:04.775485",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2025-12-22T12:56:18.120943",
+      "questions": {
+        "eae46038-1876-471b-ab61-7905c09d85ca": "Nature, connection, mountains: To ensure the group's evolving interest in comfort and diverse authentic food is met, how might a destination that offers *accessible* natural beauty and mountain views, rather than deep wilderness immersion, align with your desire for connection to the environment?",
+        "493dfd10-89fb-45d3-803b-3c26632a7696": "Comfort, quiet, de-stress: To ensure the group can experience both authentic regional flavors and beautiful natural settings, would you be open to a comfortable, quiet base that might require *brief, easy travel* to access those specific experiences, rather than having them immediately on-site?",
+        "74624d0f-5ef2-4b81-b569-a1c54fe36a75": "Authentic, good, food: Considering the group's interest in both comfort and natural landscapes, if we found a destination that offers a truly unique and authentic culinary experience, would you be willing to explore a region where that food is part of a broader cultural experience, perhaps alongside accessible nature, even if it's not a primary food-centric city?"
+      },
+      "responses": {
+        "eae46038-1876-471b-ab61-7905c09d85ca": {
+          "member_name": "Gaya",
+          "question": "Nature, connection, mountains: To ensure the group's evolving interest in comfort and diverse authentic food is met, how might a destination that offers *accessible* natural beauty and mountain views, rather than deep wilderness immersion, align with your desire for connection to the environment?",
+          "response": "Sounds good to me!",
+          "timestamp": "2025-12-22T12:56:37.419826"
+        },
+        "493dfd10-89fb-45d3-803b-3c26632a7696": {
+          "member_name": "Adi",
+          "question": "Comfort, quiet, de-stress: To ensure the group can experience both authentic regional flavors and beautiful natural settings, would you be open to a comfortable, quiet base that might require *brief, easy travel* to access those specific experiences, rather than having them immediately on-site?",
+          "response": "As long as I come back to the hotel and have some time in the pool, I'm good",
+          "timestamp": "2025-12-22T12:57:10.581372"
+        },
+        "74624d0f-5ef2-4b81-b569-a1c54fe36a75": {
+          "member_name": "Eyal",
+          "question": "Authentic, good, food: Considering the group's interest in both comfort and natural landscapes, if we found a destination that offers a truly unique and authentic culinary experience, would you be willing to explore a region where that food is part of a broader cultural experience, perhaps alongside accessible nature, even if it's not a primary food-centric city?",
+          "response": "sounds great.",
+          "timestamp": "2025-12-22T12:57:26.246487"
+        }
+      },
+      "completed_at": "2025-12-22T12:57:26.262529",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-22T12:54:07.586803",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Gaya:**\nI want to hike everyday in nature and see beautiful views\n\n**Adi:**\nI want to stay in a nice hotel and chill\n\n**Eyal:**\nI want to eat really good pasta in Italy\n\n\nBased on these responses, please:\n1. Analyze the key themes, agreements, and disagreements\n2. Generate a personalized follow-up question fo...",
+      "response": "```json\n{\n    \"analysis\": \"The initial responses reveal three distinct core desires for the family vacation. Gaya prioritizes an active, nature-focused experience with daily hiking and scenic views. Adi seeks relaxation and comfort, specifically through a nice hotel stay. Eyal's primary focus is a specific culinary experience, centered around 'really good pasta in Italy.'\\n\\n**Key Themes:** Activity vs. Relaxation, Nature vs. Culture/Cuisine, Specific Destination vs. Open Location, Comfort/Luxury vs. Experiential focus.\\n\\n**Agreements:** All participants desire a positive and fulfilling vacation experience.\\n\\n**Core Conflicts:**\\n1.  **Activity Level:** Gaya's desire for daily strenuous activity (hiking) directly contrasts with Adi's preference for 'chilling' and relaxation.\\n2.  **Location/Focus:** Eyal's specific culinary destination (Italy) and focus on food may conflict with Gaya's desire for remote natural settings for hiking, and potentially with Adi's desire for a 'nice hotel'...",
+      "parsed_questions": {
+        "Gaya": "Gaya, you've expressed a strong desire for daily hiking amidst beautiful natural scenery. To better understand what makes this so important for your ideal vacation, could you share what specific aspects of nature and views are most appealing, and how crucial it is for you to engage in a significant hike *every* day, especially when considering how we might balance various group interests?",
+        "Adi": "Adi, your focus on staying in a nice hotel and having time to chill is clear. To help us understand the ideal setup for your relaxation, could you tell us what specific amenities or comforts define a 'nice hotel' for you, and how you imagine 'chilling' ideally fitting into the overall pace of a group vacation that might also include exploration or specific activities?",
+        "Eyal": "Eyal, your enthusiasm for eating really good pasta in Italy is very distinct. To explore this further, could you elaborate on what kind of culinary experience you envision beyond just the pasta, and how important the specific destination of 'Italy' is to achieving that experience, particularly when we consider the diverse preferences emerging within the group for different types of activities and settings?"
+      }
+    },
+    {
+      "timestamp": "2025-12-22T12:56:18.102617",
+      "round": 2,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation\n\nThis is **Round 2** of the discussion. Here's the conversation history:\n\n**Round 1 Responses:**\n**Gaya:**\nI want to hike everyday in nature and see beautiful views\n\n**Adi:**\nI want to stay in a nice hotel and chill\n\n**Eyal:**\nI want to eat really good pasta in Italy\n\n\n**Round 2 Responses:**\n**Gaya:**\nI don't need a physical challenge; I just want to feel connected to the environment and the mountains.\n\n*...",
+      "response": "```json\n{\n    \"analysis\": \"The discussion is clarifying core values and revealing significant flexibility, particularly from Eyal who has broadened their food preference beyond Italy. Gaya has refined their nature interest from 'hiking everyday' to 'connection to environment and mountains' without needing a physical challenge. Adi has solidified their need for comfort, quiet, and de-stressing. The primary tension now centers on how to integrate accessible natural beauty and authentic food experiences with a strong desire for comfort and quiet relaxation.\",\n    \"emerging_consensus\": \"There's a shared desire for a pleasant, stress-free vacation. Eyal's openness on location for 'authentic food' is a major step towards finding common ground on destination. Gaya's shift from intense activity to environmental connection suggests a more relaxed approach to nature that might align better with Adi's need for de-stressing. The challenge is finding a location and type of experience that can deliv...",
+      "parsed_questions": {
+        "Gaya": "Nature, connection, mountains: To ensure the group's evolving interest in comfort and diverse authentic food is met, how might a destination that offers *accessible* natural beauty and mountain views, rather than deep wilderness immersion, align with your desire for connection to the environment?",
+        "Adi": "Comfort, quiet, de-stress: To ensure the group can experience both authentic regional flavors and beautiful natural settings, would you be open to a comfortable, quiet base that might require *brief, easy travel* to access those specific experiences, rather than having them immediately on-site?",
+        "Eyal": "Authentic, good, food: Considering the group's interest in both comfort and natural landscapes, if we found a destination that offers a truly unique and authentic culinary experience, would you be willing to explore a region where that food is part of a broader cultural experience, perhaps alongside accessible nature, even if it's not a primary food-centric city?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "A family vacation",
+  "admin": "Gaya",
+  "invite_code": "TNYU93SX",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "493dfd10-89fb-45d3-803b-3c26632a7696": "Adi",
+    "74624d0f-5ef2-4b81-b569-a1c54fe36a75": "Eyal"
+  },
+  "started_at": "2025-12-22T12:53:26.731293",
+  "member_count": 3
+}

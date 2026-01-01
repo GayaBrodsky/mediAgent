@@ -1,0 +1,238 @@
+{
+  "session_id": "e2467dff-e5f9-4e14-9a58-f683be863297",
+  "created_at": "2025-12-21T21:16:19.579045",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-21T21:16:19.579045",
+      "admin": "Grandparent",
+      "topic": "A family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T21:16:43.308923",
+      "member_id": "a6502454-764f-4c4e-aee6-d220f1c54800",
+      "member_name": "Teenager"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T21:16:57.502515",
+      "member_id": "e549eee2-89e4-418e-8056-45d028c369d9",
+      "member_name": "Parent"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-21T21:17:02.687214",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T21:17:02.701281",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T21:17:20.831039",
+      "round": 1,
+      "member_name": "Grandparent",
+      "response_preview": "I Want a quiet, \"historical tour\" of old libraries or cathedrals with plenty of benches for sitting ..."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T21:17:32.657382",
+      "round": 1,
+      "member_name": "Teenager",
+      "response_preview": "I want high-speed Wi-Fi, neon museums and esports cafes"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T21:17:42.774111",
+      "round": 1,
+      "member_name": "Parent",
+      "response_preview": "I want a place where transportation is easy and everyone stops fighting."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T21:17:42.789548",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T21:17:51.931568",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T21:23:36.269386",
+      "round": 2,
+      "member_name": "Grandparent",
+      "response_preview": "Learning and peaceful reflection."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T21:23:43.145191",
+      "round": 2,
+      "member_name": "Teenager",
+      "response_preview": "Cool stuff I saw on TikTok."
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T21:23:51.047793",
+      "round": 2,
+      "member_name": "Parent",
+      "response_preview": "I want my father and son to get along and enjoy the nice time. The transport will save money and on ..."
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T21:23:51.064456",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T21:23:59.699717",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T21:29:59.740707",
+      "round": 3,
+      "response_count": 0
+    },
+    {
+      "type": "voting_started",
+      "timestamp": "2025-12-21T21:30:19.233846",
+      "option_count": 2
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-21T21:17:02.701281",
+      "questions": {
+        "343ccde2-ff8f-49b8-967e-10709fc11038": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "a6502454-764f-4c4e-aee6-d220f1c54800": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "e549eee2-89e4-418e-8056-45d028c369d9": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "343ccde2-ff8f-49b8-967e-10709fc11038": {
+          "member_name": "Grandparent",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I Want a quiet, \"historical tour\" of old libraries or cathedrals with plenty of benches for sitting and no loud crowds.",
+          "timestamp": "2025-12-21T21:17:20.831039"
+        },
+        "a6502454-764f-4c4e-aee6-d220f1c54800": {
+          "member_name": "Teenager",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want high-speed Wi-Fi, neon museums and esports cafes",
+          "timestamp": "2025-12-21T21:17:32.657382"
+        },
+        "e549eee2-89e4-418e-8056-45d028c369d9": {
+          "member_name": "Parent",
+          "question": "Welcome to this group decision session!\n\nTopic: A family vacation\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want a place where transportation is easy and everyone stops fighting.",
+          "timestamp": "2025-12-21T21:17:42.774111"
+        }
+      },
+      "completed_at": "2025-12-21T21:17:42.789548",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2025-12-21T21:17:51.931568",
+      "questions": {
+        "343ccde2-ff8f-49b8-967e-10709fc11038": "Thank you for sharing your vision for a quiet, historical experience with comfortable resting spots. When you envision these historical tours, what aspects are most important for you to take away from the experience, beyond just the historical content itself? For instance, is it the ambiance, the learning, or the opportunity for peaceful reflection that truly resonates? Understanding this will help us explore destinations that offer a breadth of experiences while maintaining that sense of calm.",
+        "a6502454-764f-4c4e-aee6-d220f1c54800": "It's clear you're looking for an engaging experience with modern attractions and reliable connectivity. Could you tell me more about what draws you to places like neon museums or esports cafes? Is it the unique visual experience, the interactive elements, or the social aspect you find most appealing? Understanding this will help us explore how different destinations might offer similar types of contemporary engagement and ensure everyone feels connected.",
+        "e549eee2-89e4-418e-8056-45d028c369d9": "Thank you for highlighting the importance of easy transportation and a harmonious atmosphere. When you think about 'easy transportation,' what does that look like in practice for our group – is it about walkability, efficient public transit, or something else? And regarding 'everyone stops fighting,' what kinds of activities or environments do you believe would best foster a sense of shared enjoyment and reduce potential conflicts, helping to create a positive experience for all?"
+      },
+      "responses": {
+        "343ccde2-ff8f-49b8-967e-10709fc11038": {
+          "member_name": "Grandparent",
+          "question": "Thank you for sharing your vision for a quiet, historical experience with comfortable resting spots. When you envision these historical tours, what aspects are most important for you to take away from the experience, beyond just the historical content itself? For instance, is it the ambiance, the learning, or the opportunity for peaceful reflection that truly resonates? Understanding this will help us explore destinations that offer a breadth of experiences while maintaining that sense of calm.",
+          "response": "Learning and peaceful reflection.",
+          "timestamp": "2025-12-21T21:23:36.269386"
+        },
+        "a6502454-764f-4c4e-aee6-d220f1c54800": {
+          "member_name": "Teenager",
+          "question": "It's clear you're looking for an engaging experience with modern attractions and reliable connectivity. Could you tell me more about what draws you to places like neon museums or esports cafes? Is it the unique visual experience, the interactive elements, or the social aspect you find most appealing? Understanding this will help us explore how different destinations might offer similar types of contemporary engagement and ensure everyone feels connected.",
+          "response": "Cool stuff I saw on TikTok.",
+          "timestamp": "2025-12-21T21:23:43.145191"
+        },
+        "e549eee2-89e4-418e-8056-45d028c369d9": {
+          "member_name": "Parent",
+          "question": "Thank you for highlighting the importance of easy transportation and a harmonious atmosphere. When you think about 'easy transportation,' what does that look like in practice for our group – is it about walkability, efficient public transit, or something else? And regarding 'everyone stops fighting,' what kinds of activities or environments do you believe would best foster a sense of shared enjoyment and reduce potential conflicts, helping to create a positive experience for all?",
+          "response": "I want my father and son to get along and enjoy the nice time. The transport will save money and on the way we can bond.",
+          "timestamp": "2025-12-21T21:23:51.047793"
+        }
+      },
+      "completed_at": "2025-12-21T21:23:51.064456",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2025-12-21T21:23:59.699717",
+      "questions": {
+        "343ccde2-ff8f-49b8-967e-10709fc11038": "Considering the group's evolving interest in diverse experiences, how might we explore opportunities for learning and peaceful reflection in a way that also offers novel or visually engaging elements that could appeal to others, ensuring everyone feels their preferences are acknowledged?",
+        "a6502454-764f-4c4e-aee6-d220f1c54800": "Given the collective desire for creating positive shared memories and engaging experiences, how might the 'cool stuff' you've seen online be integrated into a broader vacation that also allows for moments of connection and diverse appeal for everyone in the family? What are the most essential aspects of these 'cool' experiences for you?",
+        "e549eee2-89e4-418e-8056-45d028c369d9": "Considering the collective desire for family harmony and bonding, what kinds of shared experiences, perhaps involving a mix of quiet moments and engaging activities, do you believe would best facilitate connection and enjoyment for everyone, while also keeping practical considerations around travel and value in mind?"
+      },
+      "responses": {},
+      "completed_at": "2025-12-21T21:29:59.740707",
+      "response_count": 0
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2025-12-21T21:17:51.916084",
+      "round": 1,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation\n\nThis is **Round 1** of the discussion. Below are the initial responses from all participants:\n\n**Grandparent:**\nI Want a quiet, \"historical tour\" of old libraries or cathedrals with plenty of benches for sitting and no loud crowds.\n\n**Teenager:**\nI want high-speed Wi-Fi, neon museums and esports cafes\n\n**Parent:**\nI want a place where transportation is easy and everyone stops fighting.\n\n\nBased on these r...",
+      "response": "```json\n{\n    \"analysis\": \"The group's initial preferences highlight a clear divergence in desired vacation styles. One participant seeks a tranquil, historically rich environment with opportunities for rest, favoring cultural depth over crowds. Another is drawn to modern, high-tech, and visually stimulating experiences that offer social connection and strong internet access. A third participant prioritizes practical considerations, focusing on seamless logistics and a harmonious group dynamic, which implies a desire for activities that satisfy everyone's core needs to prevent conflict. Common ground currently lies in the general desire for an enjoyable and meaningful experience, and potentially in the broad category of 'cultural exploration,' though the specific types of culture desired differ significantly. The challenge will be to find a destination or itinerary that can blend elements of historical exploration with modern engagement, all within an easily navigable and peaceful sett...",
+      "parsed_questions": {
+        "Grandparent": "Thank you for sharing your vision for a quiet, historical experience with comfortable resting spots. When you envision these historical tours, what aspects are most important for you to take away from the experience, beyond just the historical content itself? For instance, is it the ambiance, the learning, or the opportunity for peaceful reflection that truly resonates? Understanding this will help us explore destinations that offer a breadth of experiences while maintaining that sense of calm.",
+        "Teenager": "It's clear you're looking for an engaging experience with modern attractions and reliable connectivity. Could you tell me more about what draws you to places like neon museums or esports cafes? Is it the unique visual experience, the interactive elements, or the social aspect you find most appealing? Understanding this will help us explore how different destinations might offer similar types of contemporary engagement and ensure everyone feels connected.",
+        "Parent": "Thank you for highlighting the importance of easy transportation and a harmonious atmosphere. When you think about 'easy transportation,' what does that look like in practice for our group – is it about walkability, efficient public transit, or something else? And regarding 'everyone stops fighting,' what kinds of activities or environments do you believe would best foster a sense of shared enjoyment and reduce potential conflicts, helping to create a positive experience for all?"
+      }
+    },
+    {
+      "timestamp": "2025-12-21T21:23:59.677854",
+      "round": 2,
+      "prompt": "You are facilitating a group decision on the following topic:\n\n**Topic:** A family vacation\n\nThis is **Round 2** of the discussion. Here's the conversation history:\n\n**Round 1 Responses:**\n**Grandparent:**\nI Want a quiet, \"historical tour\" of old libraries or cathedrals with plenty of benches for sitting and no loud crowds.\n\n**Teenager:**\nI want high-speed Wi-Fi, neon museums and esports cafes\n\n**Parent:**\nI want a place where transportation is easy and everyone stops fighting.\n\n\n**Round 2 Respo...",
+      "response": "```json\n{\n    \"analysis\": \"The group's preferences are clarifying beyond specific locations or activities, shifting towards the underlying desired experiences and outcomes. There's a clearer articulation of what each individual hopes to *feel* or *gain* from the vacation. The desire for family cohesion and positive interaction has become a prominent theme, alongside individual interests in unique experiences and learning.\",\n    \"emerging_consensus\": \"There appears to be a shared interest in having a memorable and engaging experience for everyone, potentially involving both visual exploration and new discoveries. The overarching desire for a positive family dynamic, opportunities for connection, and a sense of collective enjoyment is a strong, unifying thread. Practical considerations around travel logistics and overall value continue to be relevant to the evolving discussion.\",\n    \"questions\": {\n        \"Grandparent\": \"Considering the group's evolving interest in diverse experiences, ...",
+      "parsed_questions": {
+        "Grandparent": "Considering the group's evolving interest in diverse experiences, how might we explore opportunities for learning and peaceful reflection in a way that also offers novel or visually engaging elements that could appeal to others, ensuring everyone feels their preferences are acknowledged?",
+        "Teenager": "Given the collective desire for creating positive shared memories and engaging experiences, how might the 'cool stuff' you've seen online be integrated into a broader vacation that also allows for moments of connection and diverse appeal for everyone in the family? What are the most essential aspects of these 'cool' experiences for you?",
+        "Parent": "Considering the collective desire for family harmony and bonding, what kinds of shared experiences, perhaps involving a mix of quiet moments and engaging activities, do you believe would best facilitate connection and enjoyment for everyone, while also keeping practical considerations around travel and value in mind?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "A family vacation",
+  "admin": "Grandparent",
+  "invite_code": "AXZKKFKB",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "a6502454-764f-4c4e-aee6-d220f1c54800": "Teenager",
+    "e549eee2-89e4-418e-8056-45d028c369d9": "Parent"
+  },
+  "started_at": "2025-12-21T21:17:02.687214",
+  "member_count": 3,
+  "voting": {
+    "started_at": "2025-12-21T21:30:19.233846",
+    "options": [
+      {
+        "title": "A Culturally Rich European City",
+        "description": "This option suggests a trip to a major European city renowned for its deep historical roots, iconic architecture, and vibrant modern pulse (e.g., London, Berlin, Rome). Such cities offer an abundance of historical sites like ancient ruins, cathedrals, and classic libraries for quiet reflection, alongside contemporary art districts, interactive museums, and areas with modern cafes and strong Wi-Fi. The extensive public transportation systems make navigation easy and cost-effective, promoting shared experiences during travel."
+      },
+      {
+        "title": "A North American City with Historic Charm and Modern Vibe",
+        "description": "This solution proposes a trip to a North American city that effectively marries a significant historical past with a thriving contemporary scene (e.g., Boston, Montreal, Philadelphia). These cities often feature well-preserved historical districts, renowned museums, and quieter parks, alongside developing tech hubs, unique modern art installations, and lively entertainment areas with good connectivity. They tend to be more navigable and potentially less overwhelming than larger international capitals, with efficient local public transport."
+      }
+    ],
+    "votes": {}
+  }
+}

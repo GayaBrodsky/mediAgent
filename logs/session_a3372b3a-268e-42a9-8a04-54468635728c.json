@@ -1,0 +1,110 @@
+{
+  "session_id": "a3372b3a-268e-42a9-8a04-54468635728c",
+  "created_at": "2025-12-21T12:12:38.236813",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2025-12-21T12:12:38.236813",
+      "admin": "Gaya",
+      "topic": "a family vacation abroad for 10 days"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T12:12:59.656633",
+      "member_id": "acbaef1f-8030-4435-8e13-f507317094c0",
+      "member_name": "Eyal"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2025-12-21T12:13:11.215542",
+      "member_id": "d6e2be70-d832-4286-9438-9b36a43a8cea",
+      "member_name": "Adi"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2025-12-21T12:13:36.696042",
+      "member_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2025-12-21T12:13:36.710295",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:13:51.257743",
+      "round": 1,
+      "member_name": "Gaya",
+      "response_preview": "i want to go italy and eat a lot of pasta"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:14:08.309832",
+      "round": 1,
+      "member_name": "Eyal",
+      "response_preview": "i want to relax in a fancy hotel"
+    },
+    {
+      "type": "response_received",
+      "timestamp": "2025-12-21T12:14:20.278795",
+      "round": 1,
+      "member_name": "Adi",
+      "response_preview": "I want to go on hikes"
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2025-12-21T12:14:20.291220",
+      "round": 1,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2025-12-21T12:13:36.710295",
+      "questions": {
+        "3c6ab27d-55ee-4bea-8393-77aa0eb3ce76": "Welcome to this group decision session!\n\nTopic: a family vacation abroad for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "acbaef1f-8030-4435-8e13-f507317094c0": "Welcome to this group decision session!\n\nTopic: a family vacation abroad for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+        "d6e2be70-d832-4286-9438-9b36a43a8cea": "Welcome to this group decision session!\n\nTopic: a family vacation abroad for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?"
+      },
+      "responses": {
+        "3c6ab27d-55ee-4bea-8393-77aa0eb3ce76": {
+          "member_name": "Gaya",
+          "question": "Welcome to this group decision session!\n\nTopic: a family vacation abroad for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to go italy and eat a lot of pasta",
+          "timestamp": "2025-12-21T12:13:51.257743"
+        },
+        "acbaef1f-8030-4435-8e13-f507317094c0": {
+          "member_name": "Eyal",
+          "question": "Welcome to this group decision session!\n\nTopic: a family vacation abroad for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "i want to relax in a fancy hotel",
+          "timestamp": "2025-12-21T12:14:08.309832"
+        },
+        "d6e2be70-d832-4286-9438-9b36a43a8cea": {
+          "member_name": "Adi",
+          "question": "Welcome to this group decision session!\n\nTopic: a family vacation abroad for 10 days\n\nPlease share your initial thoughts on this topic. What is your perspective, and what outcomes would you consider ideal? What are your main concerns or priorities?",
+          "response": "I want to go on hikes",
+          "timestamp": "2025-12-21T12:14:20.278795"
+        }
+      },
+      "completed_at": "2025-12-21T12:14:20.291220",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "a family vacation abroad for 10 days",
+  "admin": "Gaya",
+  "invite_code": "9RDU5YKP",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "acbaef1f-8030-4435-8e13-f507317094c0": "Eyal",
+    "d6e2be70-d832-4286-9438-9b36a43a8cea": "Adi"
+  },
+  "started_at": "2025-12-21T12:13:36.696042",
+  "member_count": 3
+}

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediagent - Group Decision Platform</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-icon">◉</span>
+                <span class="logo-text">Mediagent</span>
+            </div>
+            <div class="session-info" id="sessionInfo" style="display: none;">
+                <span class="session-badge" id="sessionStatus">Not Connected</span>
+                <span class="invite-code" id="inviteCode"></span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Onboarding Panel -->
+            <div class="panel onboarding-panel" id="onboardingPanel">
+                <div class="panel-content">
+                    <h1 class="welcome-title">Group Decision Platform</h1>
+                    <p class="welcome-subtitle">Facilitate thoughtful collective decisions through AI-guided dialogue</p>
+                    
+                    <div class="action-cards">
+                        <!-- Create Session Card -->
+                        <div class="action-card" id="createCard">
+                            <div class="card-icon">+</div>
+                            <h2>Create Session</h2>
+                            <p>Start a new decision-making session as the admin</p>
+                            <form id="createForm" class="card-form">
+                                <input type="text" id="adminName" placeholder="Your name" required>
+                                <textarea id="topicInput" placeholder="What decision does your group need to make?" required></textarea>
+                                <button type="submit" class="btn btn-primary">Create Session</button>
+                            </form>
+                        </div>
+
+                        <!-- Join Session Card -->
+                        <div class="action-card" id="joinCard">
+                            <div class="card-icon">→</div>
+                            <h2>Join Session</h2>
+                            <p>Join an existing session with an invite code</p>
+                            <form id="joinForm" class="card-form">
+                                <input type="text" id="memberName" placeholder="Your name" required>
+                                <input type="text" id="inviteInput" placeholder="Enter invite code" required>
+                                <button type="submit" class="btn btn-secondary">Join Session</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Session Panel -->
+            <div class="panel session-panel" id="sessionPanel" style="display: none;">
+                <!-- Session Header -->
+                <div class="session-header">
+                    <div class="topic-display">
+                        <span class="label">Topic</span>
+                        <h2 id="topicDisplay">Loading...</h2>
+                    </div>
+                    <div class="session-meta">
+                        <div class="meta-item">
+                            <span class="label">Round</span>
+                            <span class="value" id="roundDisplay">0/3</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Participants</span>
+                            <span class="value" id="participantCount">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat Area -->
+                <div class="chat-container">
+                    <div class="messages" id="messagesContainer">
+                        <div class="message system">
+                            <p>Welcome! Waiting for the session to start...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-container" id="inputContainer">
+                    <form id="responseForm">
+                        <textarea id="responseInput" placeholder="Type your response..." rows="3"></textarea>
+                        <button type="submit" class="btn btn-primary" id="sendBtn">Send</button>
+                    </form>
+                </div>
+
+                <!-- Admin Controls -->
+                <div class="admin-controls" id="adminControls" style="display: none;">
+                    <button class="btn btn-accent" id="startSessionBtn">Start Decision Process</button>
+                    <button class="btn btn-outline" id="proceedBtn" style="display: none;">Force Proceed</button>
+                    <button class="btn btn-outline btn-danger" id="leaveBtn">Leave Session</button>
+                </div>
+                
+                <!-- Leave Button for non-admins -->
+                <div class="leave-controls" id="leaveControls" style="display: none;">
+                    <button class="btn btn-outline btn-danger" id="leaveBtnParticipant">Leave Session</button>
+                </div>
+
+                <!-- Voting Panel -->
+                <div class="voting-panel" id="votingPanel" style="display: none;">
+                    <h3>Vote on Solutions</h3>
+                    <div class="voting-options" id="votingOptions"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Toast Notifications -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script>
+        // State
+        let state = {
+            inSession: false,
+            sessionId: null,
+            memberId: null,
+            isAdmin: false,
+            status: null,
+            eventSource: null
+        };
+
+        // Elements
+        const elements = {
+            onboardingPanel: document.getElementById('onboardingPanel'),
+            sessionPanel: document.getElementById('sessionPanel'),
+            sessionInfo: document.getElementById('sessionInfo'),
+            sessionStatus: document.getElementById('sessionStatus'),
+            inviteCode: document.getElementById('inviteCode'),
+            topicDisplay: document.getElementById('topicDisplay'),
+            roundDisplay: document.getElementById('roundDisplay'),
+            participantCount: document.getElementById('participantCount'),
+            messagesContainer: document.getElementById('messagesContainer'),
+            inputContainer: document.getElementById('inputContainer'),
+            adminControls: document.getElementById('adminControls'),
+            votingPanel: document.getElementById('votingPanel'),
+            votingOptions: document.getElementById('votingOptions'),
+            createForm: document.getElementById('createForm'),
+            joinForm: document.getElementById('joinForm'),
+            responseForm: document.getElementById('responseForm'),
+            startSessionBtn: document.getElementById('startSessionBtn'),
+            proceedBtn: document.getElementById('proceedBtn'),
+            leaveBtn: document.getElementById('leaveBtn'),
+            leaveBtnParticipant: document.getElementById('leaveBtnParticipant'),
+            leaveControls: document.getElementById('leaveControls')
+        };
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            setupEventListeners();
+            await connectSSE();  // Wait for SSE connection to establish with proper session
+            checkSessionStatus();
+        });
+
+        // Setup event listeners
+        function setupEventListeners() {
+            elements.createForm.addEventListener('submit', handleCreateSession);
+            elements.joinForm.addEventListener('submit', handleJoinSession);
+            elements.responseForm.addEventListener('submit', handleSubmitResponse);
+            elements.startSessionBtn.addEventListener('click', handleStartSession);
+            elements.proceedBtn.addEventListener('click', handleProceed);
+            elements.leaveBtn.addEventListener('click', handleLeaveSession);
+            elements.leaveBtnParticipant.addEventListener('click', handleLeaveSession);
+        }
+
+        // Connect to SSE for real-time updates
+        async function connectSSE() {
+            if (state.eventSource) {
+                state.eventSource.close();
+            }
+
+            // Initialize session first to ensure cookie is set properly
+            try {
+                await fetch('/api/init_session');
+            } catch (error) {
+                console.error('Failed to initialize session:', error);
+            }
+
+            state.eventSource = new EventSource('/api/events');
+            
+            state.eventSource.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                if (data.type === 'message') {
+                    addMessage(data.content, 'system');
+                    checkSessionStatus(); // Refresh status
+                }
+            };
+
+            state.eventSource.onerror = () => {
+                setTimeout(connectSSE, 3000);
+            };
+        }
+
+        // Check current session status
+        async function checkSessionStatus() {
+            try {
+                const response = await fetch('/api/session_status');
+                const data = await response.json();
+
+                if (data.in_session) {
+                    state.inSession = true;
+                    state.sessionId = data.session_id;
+                    state.memberId = data.member_id;
+                    state.isAdmin = data.is_admin;
+                    state.status = data.status;
+
+                    showSessionPanel();
+                    updateSessionUI(data);
+                }
+            } catch (error) {
+                console.error('Error checking session status:', error);
+            }
+        }
+
+        // Handle create session
+        async function handleCreateSession(e) {
+            e.preventDefault();
+            
+            const adminName = document.getElementById('adminName').value.trim();
+            const topic = document.getElementById('topicInput').value.trim();
+
+            if (!adminName || !topic) return;
+
+            try {
+                const response = await fetch('/api/create_session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ admin_name: adminName, topic })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                state.inSession = true;
+                state.sessionId = data.session_id;
+                state.memberId = data.member_id;
+                state.isAdmin = true;
+
+                showSessionPanel();
+                showToast(`Session created! Invite code: ${data.invite_code}`, 'success');
+                
+                elements.inviteCode.textContent = `Code: ${data.invite_code}`;
+                elements.topicDisplay.textContent = topic;
+                
+                checkSessionStatus();
+            } catch (error) {
+                showToast('Failed to create session', 'error');
+            }
+        }
+
+        // Handle join session
+        async function handleJoinSession(e) {
+            e.preventDefault();
+            
+            const memberName = document.getElementById('memberName').value.trim();
+            const inviteCode = document.getElementById('inviteInput').value.trim().toUpperCase();
+
+            if (!memberName || !inviteCode) return;
+
+            try {
+                const response = await fetch('/api/join_session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ member_name: memberName, invite_code: inviteCode })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                state.inSession = true;
+                state.sessionId = data.session_id;
+                state.memberId = data.member_id;
+                state.isAdmin = false;
+
+                showSessionPanel();
+                showToast('Joined session successfully!', 'success');
+                
+                elements.topicDisplay.textContent = data.topic;
+                elements.participantCount.textContent = data.member_count;
+                
+                checkSessionStatus();
+            } catch (error) {
+                showToast('Failed to join session', 'error');
+            }
+        }
+
+        // Handle submit response
+        async function handleSubmitResponse(e) {
+            e.preventDefault();
+            
+            const responseInput = document.getElementById('responseInput');
+            const answer = responseInput.value.trim();
+
+            if (!answer) return;
+
+            // 1. CLEAR THE WINDOW IMMEDIATELY
+            responseInput.value = '';
+
+            try {
+                const response = await fetch('/api/submit_response', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ answer })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                addMessage(answer, 'user');
+                responseInput.value = '';
+                showToast('Response submitted! Waiting for others...', 'success');
+                
+                checkSessionStatus();
+            } catch (error) {
+                showToast('Failed to submit response', 'error');
+            }
+        }
+        // Handle start session (admin)
+        async function handleStartSession() {
+            try {
+                const response = await fetch('/api/start_session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: state.sessionId })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                showToast('Session started!', 'success');
+                elements.startSessionBtn.style.display = 'none';
+                elements.proceedBtn.style.display = 'inline-block';
+                
+                checkSessionStatus();
+            } catch (error) {
+                showToast('Failed to start session', 'error');
+            }
+        }
+
+        // Handle force proceed (admin)
+        async function handleProceed() {
+            try {
+                showToast('Proceeding to next round...', 'info');
+                
+                const response = await fetch('/api/force_proceed', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                showToast('Proceeding with available responses', 'success');
+                checkSessionStatus();
+            } catch (error) {
+                showToast('Failed to proceed: ' + error.message, 'error');
+            }
+        }
+
+        // Handle leave session
+        async function handleLeaveSession() {
+            if (!confirm('Are you sure you want to leave this session?')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/leave_session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                // Reset state
+                state.inSession = false;
+                state.sessionId = null;
+                state.memberId = null;
+                state.isAdmin = false;
+                state.status = null;
+
+                // Clear messages
+                elements.messagesContainer.innerHTML = `
+                    <div class="message system">
+                        <p>Welcome! Waiting for the session to start...</p>
+                    </div>
+                `;
+
+                // Show onboarding panel
+                elements.sessionPanel.style.display = 'none';
+                elements.onboardingPanel.style.display = 'block';
+                elements.sessionInfo.style.display = 'none';
+
+                showToast('Left the session', 'info');
+                
+                // Reconnect SSE
+                connectSSE();
+            } catch (error) {
+                showToast('Failed to leave session: ' + error.message, 'error');
+            }
+        }
+
+        // Handle vote
+        async function handleVote(optionIndex) {
+            try {
+                const response = await fetch('/api/submit_vote', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ option_index: optionIndex })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+
+                showToast('Vote submitted!', 'success');
+                
+                // Disable voting buttons
+                document.querySelectorAll('.vote-btn').forEach(btn => {
+                    btn.disabled = true;
+                });
+                
+                checkSessionStatus();
+            } catch (error) {
+                showToast('Failed to submit vote', 'error');
+            }
+        }
+
+        // Show session panel
+        function showSessionPanel() {
+            elements.onboardingPanel.style.display = 'none';
+            elements.sessionPanel.style.display = 'flex';
+            elements.sessionInfo.style.display = 'flex';
+        }
+
+        // Update session UI
+        function updateSessionUI(data) {
+            elements.topicDisplay.textContent = data.topic;
+            elements.roundDisplay.textContent = `${data.current_round}/${data.max_iterations}`;
+            elements.participantCount.textContent = data.member_count;
+            elements.sessionStatus.textContent = data.status;
+            elements.sessionStatus.className = `session-badge status-${data.status}`;
+
+            // Show/hide admin controls and leave button
+            if (data.is_admin) {
+                elements.adminControls.style.display = 'flex';
+                elements.leaveControls.style.display = 'none';
+                if (data.status === 'created') {
+                    elements.startSessionBtn.style.display = 'inline-block';
+                    elements.proceedBtn.style.display = 'none';
+                } else if (data.status === 'collecting') {
+                    elements.startSessionBtn.style.display = 'none';
+                    elements.proceedBtn.style.display = 'inline-block';
+                } else {
+                    elements.startSessionBtn.style.display = 'none';
+                    elements.proceedBtn.style.display = 'none';
+                }
+            } else {
+                elements.adminControls.style.display = 'none';
+                elements.leaveControls.style.display = 'flex';
+            }
+
+            // Show voting panel if in voting phase
+            if (data.status === 'voting' && data.voting_options.length > 0) {
+                showVotingOptions(data.voting_options);
+            }
+
+            // Update invite code display
+            if (data.invite_code) {
+                elements.inviteCode.textContent = `Code: ${data.invite_code}`;
+            }
+        }
+
+        // Show voting options
+        function showVotingOptions(options) {
+            elements.inputContainer.style.display = 'none';
+            elements.votingPanel.style.display = 'block';
+            
+            elements.votingOptions.innerHTML = options.map((opt, i) => `
+                <div class="vote-option">
+                    <h4>${opt.title}</h4>
+                    <p>${opt.description}</p>
+                    <button class="btn btn-primary vote-btn" onclick="handleVote(${i})">
+                        Vote for this option
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        // Add message to chat
+        function addMessage(content, type) {
+
+           // If a new message from the AI (system) arrives, clear the previous user bubbles
+            if (type === 'system' && content.includes("Round")) {
+                messagesContainer.innerHTML = '';
+
+                // 2. THE SECRET FIX: Wipe AGAIN in 100ms to catch the "ghost" pasta bubble
+                setTimeout(() => {
+                    const userBubbles = messagesContainer.querySelectorAll('.message.user');
+                    userBubbles.forEach(msg => msg.remove());
+                }, 100);
+            }
+
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            
+            // Convert markdown-style formatting
+            let formattedContent = content
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/\n/g, '<br>');
+            
+            messageDiv.innerHTML = `<p>${formattedContent}</p>`;
+            elements.messagesContainer.appendChild(messageDiv);
+            elements.messagesContainer.scrollTop = elements.messagesContainer.scrollHeight;
+        }
+
+        // Show toast notification
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            
+            document.getElementById('toastContainer').appendChild(toast);
+            
+            setTimeout(() => {
+                toast.classList.add('fade-out');
+                setTimeout(() => toast.remove(), 300);
+            }, 4000);
+        }
+    </script>
+</body>
+</html>
+
