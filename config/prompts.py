@@ -83,6 +83,18 @@ Format your response as JSON:
     ]
 }}"""
 
+# 7. TIE-BREAKER PROMPT (Social Influence & Administrative Behavior)
+TIE_BREAKER_PROMPT = """The group vote has resulted in a tie between these options: {tied_options}.
+
+As the Neutral Mediator, you must now break the tie based on the principle of 'Administrative Behavior'.
+1. Review the 'Non-Negotiable Constraints' identified in Round 2.
+2. Select the ONE option that best honors the most critical group constraints (e.g., budget or mandatory activity).
+3. Provide a 'Value-Based Justification' explaining why this choice is the most 'satisficing' for the collective.
+
+Format your response as:
+**The Tie-Breaker Decision:** [Selected Option]
+**Rationale:** [Explanation of why this respects the group's core trade-offs]"""
+
 
 # 6. Consolidated Dictionary for the Orchestrator
 PROMPTS = {
@@ -92,6 +104,7 @@ PROMPTS = {
     "iteration_1": ITERATION_PROMPTS[1],
     "iteration_2": ITERATION_PROMPTS[2],
     "final_synthesis": FINAL_SYNTHESIS_PROMPT,
+    "tie_breaker": TIE_BREAKER_PROMPT,
 }
 
 def get_iteration_prompt(round_number: int) -> str:
