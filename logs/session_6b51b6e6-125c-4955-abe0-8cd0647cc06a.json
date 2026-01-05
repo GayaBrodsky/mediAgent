@@ -1,0 +1,120 @@
+{
+  "session_id": "6b51b6e6-125c-4955-abe0-8cd0647cc06a",
+  "created_at": "2026-01-04T16:44:02.396071",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T16:44:02.396071",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T16:44:08.676890",
+      "member_id": "6eada672-ad96-4d03-9324-de2d09b0d948",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T16:44:11.450102",
+      "member_id": "dc10d993-c12a-4248-ba97-7855d5183248",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T16:44:25.842087",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T16:44:45.323815",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T16:44:51.376660",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T16:45:09.258485",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T16:45:17.610861",
+      "round": 3,
+      "question_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-04T16:44:25.842087",
+      "questions": {
+        "18ad8d0e-ac9a-486b-ad3e-85b2796c0dfa": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "6eada672-ad96-4d03-9324-de2d09b0d948": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "dc10d993-c12a-4248-ba97-7855d5183248": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T16:44:45.323815",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2026-01-04T16:44:51.376660",
+      "questions": {
+        "18ad8d0e-ac9a-486b-ad3e-85b2796c0dfa": "When you think about 'comfort and relaxation' in a luxury city hotel, what specific feelings or experiences are most important to you during this vacation?",
+        "6eada672-ad96-4d03-9324-de2d09b0d948": "When you mention 'intense hiking and outdoor adventure,' could you describe what level of physical challenge or specific types of activities you envision as ideal for this vacation?",
+        "dc10d993-c12a-4248-ba97-7855d5183248": "When you say 'strictly cheap' and 'cost-effectiveness,' could you give an example of what kind of daily or overall budget you have in mind for this vacation?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T16:45:09.258485",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2026-01-04T16:45:17.610861",
+      "questions": {
+        "18ad8d0e-ac9a-486b-ad3e-85b2796c0dfa": "Based on the discussion so far, could you elaborate on your position regarding family vacation (Constraints: 10 days in the summer, no budget)? What aspects are most important to you?",
+        "6eada672-ad96-4d03-9324-de2d09b0d948": "Based on the discussion so far, could you elaborate on your position regarding family vacation (Constraints: 10 days in the summer, no budget)? What aspects are most important to you?",
+        "dc10d993-c12a-4248-ba97-7855d5183248": "Based on the discussion so far, could you elaborate on your position regarding family vacation (Constraints: 10 days in the summer, no budget)? What aspects are most important to you?"
+      },
+      "responses": {}
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-04T16:44:51.355447",
+      "round": 1,
+      "prompt": "You are an expert mediator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - Gaya\n- adi\n- rony\n\n    Latest responses (Round 1):\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-brea...",
+      "response": "Gaya: When you think about 'comfort and relaxation' in a luxury city hotel, what specific feelings or experiences are most important to you during this vacation?\nadi: When you mention 'intense hiking and outdoor adventure,' could you describe what level of physical challenge or specific types of activities you envision as ideal for this vacation?\nrony: When you say 'strictly cheap' and 'cost-effectiveness,' could you give an example of what kind of daily or overall budget you have in mind for this vacation?",
+      "parsed_questions": {
+        "Gaya": "When you think about 'comfort and relaxation' in a luxury city hotel, what specific feelings or experiences are most important to you during this vacation?",
+        "adi": "When you mention 'intense hiking and outdoor adventure,' could you describe what level of physical challenge or specific types of activities you envision as ideal for this vacation?",
+        "rony": "When you say 'strictly cheap' and 'cost-effectiveness,' could you give an example of what kind of daily or overall budget you have in mind for this vacation?"
+      }
+    },
+    {
+      "timestamp": "2026-01-04T16:45:17.592401",
+      "round": 2,
+      "prompt": "You are a neutral negotiator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - Gaya\n- adi\n- rony\n\n    Round 1 baseline preferences:\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-...",
+      "response": "Gaya, understanding your need for maximum comfort, professional spa services, and shopping for family bonding, would you be open to a luxury resort with a top-tier spa and excellent Wi-Fi, located in a scenic, less urban setting, if it included curated shopping excursions to nearby towns and guaranteed your relaxation? Yes/No?\nadi, acknowledging your need for remote mountains and intense hiking to feel alive, would you consider a high-quality, quiet lodge with direct access to challenging mountain trails, offering deep immersion in nature, if it was situated in a less isolated but still uncrowded natural area? Yes/No?\nrony, recognizing your priority for cost-effectiveness, avoiding debt, and maximizing family time through short travel, would you consider a highly budget-conscious option that offers great value and minimal travel time, even if it wasn't the absolute cheapest possible, if it guaranteed financial peace of mind and more time together? Yes/No?",
+      "parsed_questions": {}
+    }
+  ],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "ZEVTYSFL",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "6eada672-ad96-4d03-9324-de2d09b0d948": "adi",
+    "dc10d993-c12a-4248-ba97-7855d5183248": "rony"
+  }
+}

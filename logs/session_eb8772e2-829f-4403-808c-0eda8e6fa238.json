@@ -1,0 +1,184 @@
+{
+  "session_id": "eb8772e2-829f-4403-808c-0eda8e6fa238",
+  "created_at": "2026-01-04T16:10:22.299394",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T16:10:22.299394",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T16:10:28.717873",
+      "member_id": "767e1b90-b56d-4889-919a-d9bbb7f7c052",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T16:10:32.134103",
+      "member_id": "a9044c9d-2194-4262-9871-5934a825ed0b",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T16:10:49.811212",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T16:11:10.163711",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T16:11:15.864127",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T16:11:38.513850",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T16:11:50.061024",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T16:12:15.877887",
+      "round": 3,
+      "response_count": 3
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-04T16:13:14.178957",
+      "member_name": "Gaya",
+      "option": "Upscale Mountain Resort with Spa Access"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-04T16:13:15.785276",
+      "member_name": "adi",
+      "option": "Comfortable Chalet/Cabin in a Mountain Town with Amenities"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-04T16:13:16.892481",
+      "member_name": "rony",
+      "option": "Upscale Mountain Resort with Spa Access"
+    },
+    {
+      "type": "session_completed",
+      "timestamp": "2026-01-04T16:13:16.907667"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-04T16:10:49.811212",
+      "questions": {
+        "14c65459-a309-4691-bc1a-1545d6405398": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "767e1b90-b56d-4889-919a-d9bbb7f7c052": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "a9044c9d-2194-4262-9871-5934a825ed0b": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T16:11:10.163711",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2026-01-04T16:11:15.864127",
+      "questions": {
+        "14c65459-a309-4691-bc1a-1545d6405398": "Beyond the specific amenities of a luxury city hotel, what aspects of comfort and relaxation are most essential for you to feel truly rejuvenated on this trip?",
+        "767e1b90-b56d-4889-919a-d9bbb7f7c052": "When you mention 'intense hiking and outdoor adventure,' could you describe what level of physical challenge or specific types of activities you envision for this trip?",
+        "a9044c9d-2194-4262-9871-5934a825ed0b": "To help us understand your preference for 'strictly cheap' and 'cost-effectiveness,' could you provide a rough idea of a comfortable daily budget or a maximum total cost you have in mind for the trip?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T16:11:38.513850",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2026-01-04T16:11:50.061024",
+      "questions": {
+        "14c65459-a309-4691-bc1a-1545d6405398": "Acknowledging your priority for maximum comfort, professional spa services, and family bonding through shopping, would you consider a high-end resort with a luxury spa and nearby unique shops in a scenic area, if it still provides the comfort and professional services you need to truly disconnect? Yes/No",
+        "767e1b90-b56d-4889-919a-d9bbb7f7c052": "Acknowledging your desire for mountains and intense hiking as the only way you feel alive and healthy, would you be willing to consider a comfortable mountain lodge or resort with immediate access to challenging trails, if it still allows for the physical adventure and connection to nature you seek? Yes/No",
+        "a9044c9d-2194-4262-9871-5934a825ed0b": "Acknowledging your concern about overspending and desire for short travel time to maximize family time, would you consider a moderately priced vacation option that prioritizes value for money and minimizes travel time, if it still ensures you return without financial stress? Yes/No"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T16:12:15.877887",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-04T16:11:15.846971",
+      "round": 1,
+      "prompt": "You are an expert mediator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - Gaya\n- adi\n- rony\n\n    Latest responses (Round 1):\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-bre...",
+      "response": "Gaya: Beyond the specific amenities of a luxury city hotel, what aspects of comfort and relaxation are most essential for you to feel truly rejuvenated on this trip?\nadi: When you mention 'intense hiking and outdoor adventure,' could you describe what level of physical challenge or specific types of activities you envision for this trip?\nrony: To help us understand your preference for 'strictly cheap' and 'cost-effectiveness,' could you provide a rough idea of a comfortable daily budget or a maximum total cost you have in mind for the trip?",
+      "parsed_questions": {
+        "Gaya": "Beyond the specific amenities of a luxury city hotel, what aspects of comfort and relaxation are most essential for you to feel truly rejuvenated on this trip?",
+        "adi": "When you mention 'intense hiking and outdoor adventure,' could you describe what level of physical challenge or specific types of activities you envision for this trip?",
+        "rony": "To help us understand your preference for 'strictly cheap' and 'cost-effectiveness,' could you provide a rough idea of a comfortable daily budget or a maximum total cost you have in mind for the trip?"
+      }
+    },
+    {
+      "timestamp": "2026-01-04T16:11:50.039507",
+      "round": 2,
+      "prompt": "You are a neutral negotiator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - Gaya\n- adi\n- rony\n\n    Round 1 baseline preferences:\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal...",
+      "response": "Gaya: Acknowledging your priority for maximum comfort, professional spa services, and family bonding through shopping, would you consider a high-end resort with a luxury spa and nearby unique shops in a scenic area, if it still provides the comfort and professional services you need to truly disconnect? Yes/No\nadi: Acknowledging your desire for mountains and intense hiking as the only way you feel alive and healthy, would you be willing to consider a comfortable mountain lodge or resort with immediate access to challenging trails, if it still allows for the physical adventure and connection to nature you seek? Yes/No\nrony: Acknowledging your concern about overspending and desire for short travel time to maximize family time, would you consider a moderately priced vacation option that prioritizes value for money and minimizes travel time, if it still ensures you return without financial stress? Yes/No",
+      "parsed_questions": {
+        "Gaya": "Acknowledging your priority for maximum comfort, professional spa services, and family bonding through shopping, would you consider a high-end resort with a luxury spa and nearby unique shops in a scenic area, if it still provides the comfort and professional services you need to truly disconnect? Yes/No",
+        "adi": "Acknowledging your desire for mountains and intense hiking as the only way you feel alive and healthy, would you be willing to consider a comfortable mountain lodge or resort with immediate access to challenging trails, if it still allows for the physical adventure and connection to nature you seek? Yes/No",
+        "rony": "Acknowledging your concern about overspending and desire for short travel time to maximize family time, would you consider a moderately priced vacation option that prioritizes value for money and minimizes travel time, if it still ensures you return without financial stress? Yes/No"
+      }
+    }
+  ],
+  "final_decision": {
+    "winner": "Upscale Mountain Resort with Spa Access",
+    "votes": {
+      "Upscale Mountain Resort with Spa Access": 2,
+      "Comfortable Chalet/Cabin in a Mountain Town with Amenities": 1,
+      "Adventure Base Lodge with Comfort Focus": 0
+    }
+  },
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "CEY3KCBS",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "767e1b90-b56d-4889-919a-d9bbb7f7c052": "adi",
+    "a9044c9d-2194-4262-9871-5934a825ed0b": "rony"
+  },
+  "voting": {
+    "votes": {
+      "14c65459-a309-4691-bc1a-1545d6405398": {
+        "member_name": "Gaya",
+        "option_index": 0,
+        "option_title": "Upscale Mountain Resort with Spa Access",
+        "timestamp": "2026-01-04T16:13:14.178957"
+      },
+      "767e1b90-b56d-4889-919a-d9bbb7f7c052": {
+        "member_name": "adi",
+        "option_index": 1,
+        "option_title": "Comfortable Chalet/Cabin in a Mountain Town with Amenities",
+        "timestamp": "2026-01-04T16:13:15.785276"
+      },
+      "a9044c9d-2194-4262-9871-5934a825ed0b": {
+        "member_name": "rony",
+        "option_index": 0,
+        "option_title": "Upscale Mountain Resort with Spa Access",
+        "timestamp": "2026-01-04T16:13:16.892481"
+      }
+    }
+  },
+  "completed_at": "2026-01-04T16:13:16.907667"
+}

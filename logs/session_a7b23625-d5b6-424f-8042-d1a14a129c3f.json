@@ -1,0 +1,115 @@
+{
+  "session_id": "a7b23625-d5b6-424f-8042-d1a14a129c3f",
+  "created_at": "2026-01-04T12:15:57.703653",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T12:15:57.703653",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T12:16:05.205565",
+      "member_id": "0a638c8f-95d6-498d-a224-0ef570aee25a",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T12:16:09.648007",
+      "member_id": "bea99854-533d-42ea-8092-e1f645999df6",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T12:16:33.151156",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T12:22:33.178399",
+      "round": 2,
+      "response_count": 0
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T12:22:44.521404",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T12:28:44.565184",
+      "round": 2,
+      "response_count": 0
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T12:28:51.535938",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T12:34:51.557824",
+      "round": 2,
+      "response_count": 0
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T12:34:54.791558",
+      "round": 2,
+      "question_count": 3
+    }
+  ],
+  "rounds": {
+    "2": {
+      "started_at": "2026-01-04T12:16:33.151156",
+      "questions": {
+        "d7a4cf04-a099-49a9-9f65-e0c50e6bc4c9": "Based on the discussion so far, what are your thoughts on family vacation (Constraints: 10 days in the summer, no budget)?",
+        "0a638c8f-95d6-498d-a224-0ef570aee25a": "Based on the discussion so far, what are your thoughts on family vacation (Constraints: 10 days in the summer, no budget)?",
+        "bea99854-533d-42ea-8092-e1f645999df6": "Based on the discussion so far, what are your thoughts on family vacation (Constraints: 10 days in the summer, no budget)?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T12:34:51.557824",
+      "response_count": 0
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-04T12:22:44.503806",
+      "round": 2,
+      "prompt": "ACT AS A NEGOTIATOR. \n    History of preferences: \n    New Info: \n\n    Identify the core conflicts. For each person, suggest a specific trade-off \n    that satisfies the collective need while respecting their individual values.\n    \n    FORMAT:\n    Name: [Your persuasive trade-off proposal]",
+      "response": "As your Neutral, Expert Mediator, I am prepared to facilitate group consensus and navigate disparate preferences towards a satisficing outcome.\n\nTo effectively identify core conflicts and propose specific, tailored trade-offs that respect individual values while satisfying collective needs, I require the details of the 'History of preferences' for each participant, as well as any 'New Info' pertinent to the current situation.\n\nOnce this information is provided, I will apply the core strategies outlined (Anchoring Mitigation, Interest Discovery, Consistency Principle, Bounded Rationality) to formulate persuasive proposals.\n\nPlease provide the necessary details, and I will then present the proposals in the requested format:\n\nName: [Your persuasive trade-off proposal]",
+      "parsed_questions": {}
+    },
+    {
+      "timestamp": "2026-01-04T12:28:51.522662",
+      "round": 2,
+      "prompt": "ACT AS A NEGOTIATOR. \n    History of preferences: \n    New Info: \n\n    Identify the core conflicts. For each person, suggest a specific trade-off \n    that satisfies the collective need while respecting their individual values.\n    \n    FORMAT:\n    Name: [Your persuasive trade-off proposal]",
+      "response": "As your Neutral, Expert Mediator, I am ready to facilitate a consensus that respects each individual's core interests. My goal is to navigate diverse preferences towards a 'satisficing' outcome, keeping the process focused and efficient.\n\nTo begin, please provide the 'History of preferences' for each individual involved, and any 'New Info' relevant to the current situation. I will process this information privately to identify core conflicts and uncover the underlying interests behind stated positions.\n\nOnce I have this input, I will formulate specific, persuasive trade-off proposals designed to satisfy the collective need while acknowledging and respecting each person's individual values.\n\nPlease share the details, and I will proceed with the mediation.",
+      "parsed_questions": {}
+    },
+    {
+      "timestamp": "2026-01-04T12:34:54.776990",
+      "round": 2,
+      "prompt": "ACT AS A NEGOTIATOR. \n    History of preferences: \n    New Info: \n\n    Identify the core conflicts. For each person, suggest a specific trade-off \n    that satisfies the collective need while respecting their individual values.\n    \n    FORMAT:\n    Name: [Your persuasive trade-off proposal]",
+      "response": "Greetings. I am ready to facilitate your group's consensus.\n\nTo begin, please provide the 'History of preferences' for each individual involved, as well as any 'New Info' relevant to the current situation. Once I have this, I will identify the core conflicts and propose specific trade-offs designed to achieve a satisficing outcome for all, respecting individual values while seeking collective need.",
+      "parsed_questions": {}
+    }
+  ],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "W36G69KB",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "0a638c8f-95d6-498d-a224-0ef570aee25a": "adi",
+    "bea99854-533d-42ea-8092-e1f645999df6": "rony"
+  }
+}

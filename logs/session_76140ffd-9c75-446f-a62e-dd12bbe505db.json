@@ -1,0 +1,94 @@
+{
+  "session_id": "76140ffd-9c75-446f-a62e-dd12bbe505db",
+  "created_at": "2026-01-04T14:03:13.686449",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T14:03:13.686449",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T14:03:20.667199",
+      "member_id": "6c27a27b-0eb0-484e-8112-0a432c99fbd7",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T14:03:24.847156",
+      "member_id": "c6d6bc94-a40a-4c72-9337-6efddba4084f",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T14:03:44.729069",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T14:04:38.808173",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T14:04:47.069124",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T14:10:47.088747",
+      "round": 3,
+      "response_count": 0
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-04T14:03:44.729069",
+      "questions": {
+        "93bd660a-b9d0-40de-a8a2-49c21364fc4d": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n\n(Admin: Please also specify Duration, Budget level, and preferred Region if not already discussed).",
+        "6c27a27b-0eb0-484e-8112-0a432c99fbd7": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n\n(Admin: Please also specify Duration, Budget level, and preferred Region if not already discussed).",
+        "c6d6bc94-a40a-4c72-9337-6efddba4084f": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n\n(Admin: Please also specify Duration, Budget level, and preferred Region if not already discussed)."
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T14:04:38.808173",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2026-01-04T14:04:47.069124",
+      "questions": {
+        "93bd660a-b9d0-40de-a8a2-49c21364fc4d": "Based on the discussion so far, could you elaborate on your position regarding family vacation (Constraints: 10 days in the summer, no budget)? What aspects are most important to you?",
+        "6c27a27b-0eb0-484e-8112-0a432c99fbd7": "Based on the discussion so far, could you elaborate on your position regarding family vacation (Constraints: 10 days in the summer, no budget)? What aspects are most important to you?",
+        "c6d6bc94-a40a-4c72-9337-6efddba4084f": "Based on the discussion so far, could you elaborate on your position regarding family vacation (Constraints: 10 days in the summer, no budget)? What aspects are most important to you?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T14:10:47.088747",
+      "response_count": 0
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-04T14:04:47.052322",
+      "round": 1,
+      "prompt": "You are an expert mediator. Ground yourself in the topic: family vacation (Constraints: 10 days in the summer, no budget).\n    The group has provided these initial thoughts:\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker is crowded cities and expensive shopping ma...",
+      "response": "**Gaya:**\nGaya, your must-have is a luxury city hotel with a spa and shopping, prioritizing comfort and relaxation, and your deal-breaker is camping or remote areas without good Wi-Fi. Could you elaborate a bit more on what specific feelings or experiences 'comfort and relaxation' truly encompass for you in this setting? For example, beyond the pampering of a spa, what aspects of a city environment or shopping contribute most to your sense of unwinding and enjoyment? And regarding good Wi-Fi, what makes reliable connectivity a critical element for your ideal vacation?\n\n**adi:**\nAdi, your vision for this trip centers on a remote mountain cabin for intense hiking and outdoor adventure, with nature and physical challenge as your top priorities. You've also mentioned a strong aversion to crowded cities and shopping malls. Could you describe in more detail what kind of connection you seek with nature, and what specific aspects of 'intense' hiking or outdoor adventure bring you the most sati...",
+      "parsed_questions": {}
+    }
+  ],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "XJZ33B5X",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "6c27a27b-0eb0-484e-8112-0a432c99fbd7": "adi",
+    "c6d6bc94-a40a-4c72-9337-6efddba4084f": "rony"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "session_id": "e6247119-258c-44d1-81bf-328b9f217576",
+  "created_at": "2026-01-05T15:10:38.304529",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-05T15:10:38.304529",
+      "admin": "gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-05T15:10:44.642591",
+      "member_id": "d0fbbac4-d1e1-4d5c-ae32-6ef6a495942c",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-05T15:10:48.385908",
+      "member_id": "4b7e3bff-1e2d-4ec4-bac7-be93d74250f7",
+      "member_name": "Rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-05T15:11:07.347051",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-05T15:11:32.119327",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-05T15:11:40.603180",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-05T15:11:55.598989",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-05T15:12:07.836681",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-05T15:12:40.777930",
+      "round": 3,
+      "response_count": 3
+    },
+    {
+      "type": "voting_started",
+      "timestamp": "2026-01-05T15:13:15.515508",
+      "option_count": 3
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-05T15:14:17.985884",
+      "member_name": "Rony",
+      "option": "Mountain Resort with Spa & Local Charm"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-05T15:14:23.903571",
+      "member_name": "adi",
+      "option": "European Alpine City Getaway"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-05T15:14:28.751220",
+      "member_name": "gaya",
+      "option": "Domestic Nature Lodge with Activities"
+    },
+    {
+      "type": "session_completed",
+      "timestamp": "2026-01-05T15:14:28.767842"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-05T15:11:07.347051",
+      "questions": {
+        "2c4abc21-31aa-4ec4-98f5-c25b8e1b2782": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "d0fbbac4-d1e1-4d5c-ae32-6ef6a495942c": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "4b7e3bff-1e2d-4ec4-bac7-be93d74250f7": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n"
+      },
+      "responses": {},
+      "completed_at": "2026-01-05T15:11:32.119327",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2026-01-05T15:11:40.603180",
+      "questions": {
+        "2c4abc21-31aa-4ec4-98f5-c25b8e1b2782": "Your priority is comfort and relaxation in a luxury setting with amenities like a spa and shopping; is the specific urban environment paramount, or is it the feeling of being pampered and having high-end amenities that truly defines 'comfort and relaxation' for you?",
+        "d0fbbac4-d1e1-4d5c-ae32-6ef6a495942c": "You're seeking nature and physical challenge, favoring a remote mountain cabin for intense hiking and outdoor adventure; is the absolute remoteness and solitude of the location your primary driver, or is it the opportunity for engaging outdoor activities within a natural setting?",
+        "4b7e3bff-1e2d-4ec4-bac7-be93d74250f7": "Your priority is cost-effectiveness, aiming for a strictly cheap vacation and avoiding long flights; is your main goal the absolute lowest possible expenditure, or are you open to slightly higher costs if it significantly enhances the trip's overall value and enjoyment?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-05T15:11:55.598989",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2026-01-05T15:12:07.836681",
+      "questions": {
+        "2c4abc21-31aa-4ec4-98f5-c25b8e1b2782": "Since you emphasized that 'maximum comfort and professional spa services to truly disconnect' and 'family bonding through shopping' are crucial for your relaxation, would you be open to considering a high-quality resort with excellent spa facilities and boutique shopping options that is situated *near* natural areas, allowing for both relaxation and potential for group activities, even if it's not in the heart of a bustling metropolis?",
+        "d0fbbac4-d1e1-4d5c-ae32-6ef6a495942c": "Given your strong commitment to 'intense hiking and outdoor adventure' and the need to 'feel alive and healthy' through physical challenge, would you be willing to consider a destination that offers direct access to challenging hiking trails and natural beauty, perhaps staying in a comfortable lodge or hotel located at the base of mountains, ensuring daily access to nature while still providing a base that caters to diverse group needs?",
+        "4b7e3bff-1e2d-4ec4-bac7-be93d74250f7": "Recognizing your primary concern for 'cost-effectiveness' to avoid 'long-term stress of overspending' and your desire for 'short travel time to maximize family time,' would you consider a destination that is easily accessible with a short flight or drive, even if the overall cost is moderately higher than 'strictly cheap,' provided it offers a good balance of activities and accommodations that satisfy everyone's core needs and ensures a stress-free return without debt?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-05T15:12:40.777930",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-05T15:11:40.588170",
+      "round": 1,
+      "prompt": "You are an expert mediator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - gaya\n- adi\n- Rony\n\n    Latest responses (Round 1):\n    gaya: My must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation\nadi: I want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker is cr...",
+      "response": "gaya: Your priority is comfort and relaxation in a luxury setting with amenities like a spa and shopping; is the specific urban environment paramount, or is it the feeling of being pampered and having high-end amenities that truly defines 'comfort and relaxation' for you?\nadi: You're seeking nature and physical challenge, favoring a remote mountain cabin for intense hiking and outdoor adventure; is the absolute remoteness and solitude of the location your primary driver, or is it the opportunity for engaging outdoor activities within a natural setting?\nRony: Your priority is cost-effectiveness, aiming for a strictly cheap vacation and avoiding long flights; is your main goal the absolute lowest possible expenditure, or are you open to slightly higher costs if it significantly enhances the trip's overall value and enjoyment?",
+      "parsed_questions": {
+        "gaya": "Your priority is comfort and relaxation in a luxury setting with amenities like a spa and shopping; is the specific urban environment paramount, or is it the feeling of being pampered and having high-end amenities that truly defines 'comfort and relaxation' for you?",
+        "adi": "You're seeking nature and physical challenge, favoring a remote mountain cabin for intense hiking and outdoor adventure; is the absolute remoteness and solitude of the location your primary driver, or is it the opportunity for engaging outdoor activities within a natural setting?",
+        "Rony": "Your priority is cost-effectiveness, aiming for a strictly cheap vacation and avoiding long flights; is your main goal the absolute lowest possible expenditure, or are you open to slightly higher costs if it significantly enhances the trip's overall value and enjoyment?"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T15:12:07.804681",
+      "round": 2,
+      "prompt": "You are a neutral negotiator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - gaya\n- adi\n- Rony\n\n    Round 1 baseline preferences:\n    gaya: My must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation\nadi: I want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker i...",
+      "response": "gaya: Since you emphasized that 'maximum comfort and professional spa services to truly disconnect' and 'family bonding through shopping' are crucial for your relaxation, would you be open to considering a high-quality resort with excellent spa facilities and boutique shopping options that is situated *near* natural areas, allowing for both relaxation and potential for group activities, even if it's not in the heart of a bustling metropolis?\nadi: Given your strong commitment to 'intense hiking and outdoor adventure' and the need to 'feel alive and healthy' through physical challenge, would you be willing to consider a destination that offers direct access to challenging hiking trails and natural beauty, perhaps staying in a comfortable lodge or hotel located at the base of mountains, ensuring daily access to nature while still providing a base that caters to diverse group needs?\nRony: Recognizing your primary concern for 'cost-effectiveness' to avoid 'long-term stress of overspending' ...",
+      "parsed_questions": {
+        "gaya": "Since you emphasized that 'maximum comfort and professional spa services to truly disconnect' and 'family bonding through shopping' are crucial for your relaxation, would you be open to considering a high-quality resort with excellent spa facilities and boutique shopping options that is situated *near* natural areas, allowing for both relaxation and potential for group activities, even if it's not in the heart of a bustling metropolis?",
+        "adi": "Given your strong commitment to 'intense hiking and outdoor adventure' and the need to 'feel alive and healthy' through physical challenge, would you be willing to consider a destination that offers direct access to challenging hiking trails and natural beauty, perhaps staying in a comfortable lodge or hotel located at the base of mountains, ensuring daily access to nature while still providing a base that caters to diverse group needs?",
+        "Rony": "Recognizing your primary concern for 'cost-effectiveness' to avoid 'long-term stress of overspending' and your desire for 'short travel time to maximize family time,' would you consider a destination that is easily accessible with a short flight or drive, even if the overall cost is moderately higher than 'strictly cheap,' provided it offers a good balance of activities and accommodations that satisfy everyone's core needs and ensures a stress-free return without debt?"
+      }
+    }
+  ],
+  "final_decision": {
+    "winner": "Mountain Resort with Spa & Local Charm",
+    "votes": {
+      "Mountain Resort with Spa & Local Charm": 1,
+      "European Alpine City Getaway": 1,
+      "Domestic Nature Lodge with Activities": 1
+    }
+  },
+  "topic": "family vacation",
+  "admin": "gaya",
+  "invite_code": "J4F6982D",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "d0fbbac4-d1e1-4d5c-ae32-6ef6a495942c": "adi",
+    "4b7e3bff-1e2d-4ec4-bac7-be93d74250f7": "Rony"
+  },
+  "voting": {
+    "started_at": "2026-01-05T15:13:15.515508",
+    "options": [
+      {
+        "title": "Mountain Resort with Spa & Local Charm",
+        "description": "A comfortable resort situated near scenic mountains, offering spa services, reliable Wi-Fi, and opportunities for both hiking and exploring local shops."
+      },
+      {
+        "title": "European Alpine City Getaway",
+        "description": "A vibrant European city (e.g., in Austria or Switzerland) boasting luxury hotels, extensive shopping, and convenient access to the Alps for robust hiking excursions."
+      },
+      {
+        "title": "Domestic Nature Lodge with Activities",
+        "description": "A well-appointed lodge within a domestic natural park, offering comfortable lodging, Wi-Fi, abundant hiking trails, and minimal travel time via a short flight or drive."
+      }
+    ],
+    "votes": {
+      "4b7e3bff-1e2d-4ec4-bac7-be93d74250f7": {
+        "member_name": "Rony",
+        "option_index": 0,
+        "option_title": "Mountain Resort with Spa & Local Charm",
+        "timestamp": "2026-01-05T15:14:17.985884"
+      },
+      "d0fbbac4-d1e1-4d5c-ae32-6ef6a495942c": {
+        "member_name": "adi",
+        "option_index": 1,
+        "option_title": "European Alpine City Getaway",
+        "timestamp": "2026-01-05T15:14:23.903571"
+      },
+      "2c4abc21-31aa-4ec4-98f5-c25b8e1b2782": {
+        "member_name": "gaya",
+        "option_index": 2,
+        "option_title": "Domestic Nature Lodge with Activities",
+        "timestamp": "2026-01-05T15:14:28.751220"
+      }
+    }
+  },
+  "completed_at": "2026-01-05T15:14:28.767842"
+}

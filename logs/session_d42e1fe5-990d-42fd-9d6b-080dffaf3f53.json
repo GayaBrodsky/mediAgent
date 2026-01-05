@@ -1,0 +1,46 @@
+{
+  "session_id": "d42e1fe5-990d-42fd-9d6b-080dffaf3f53",
+  "created_at": "2026-01-03T12:22:44.578565",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-03T12:22:44.578565",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-03T12:22:55.489179",
+      "member_id": "dafb750a-359e-4dca-b91e-4503962a67c3",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-03T12:22:58.553441",
+      "member_id": "c5149778-1a98-43ee-8aae-4aa705b2f6fe",
+      "member_name": "Rony"
+    },
+    {
+      "type": "session_started",
+      "timestamp": "2026-01-03T12:23:01.102006",
+      "member_count": 3
+    }
+  ],
+  "rounds": {},
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "76F8TQXW",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "dafb750a-359e-4dca-b91e-4503962a67c3": "adi",
+    "c5149778-1a98-43ee-8aae-4aa705b2f6fe": "Rony"
+  },
+  "started_at": "2026-01-03T12:23:01.102006",
+  "member_count": 3
+}

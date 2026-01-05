@@ -156,7 +156,9 @@ class WebUI(InterfaceBase):
                 self.mediagent.start_session(session_id),
                 self._loop
             )
-            success, error = future.result(timeout=30)
+            from config.settings import settings
+            success, error = future.result(timeout=settings.RESPONSE_TIMEOUT_SECONDS + 5) #NEW
+
             
             if not success:
                 return jsonify({'error': error}), 400
@@ -187,7 +189,9 @@ class WebUI(InterfaceBase):
                 ),
                 self._loop
             )
-            success, error = future.result(timeout=30)
+            from config.settings import settings
+            success, error = future.result(timeout=settings.RESPONSE_TIMEOUT_SECONDS + 5) #NEW
+
             
             if not success:
                 return jsonify({'error': error}), 400
@@ -218,7 +222,9 @@ class WebUI(InterfaceBase):
                 ),
                 self._loop
             )
-            success, error = future.result(timeout=30)
+            from config.settings import settings
+            success, error = future.result(timeout=settings.RESPONSE_TIMEOUT_SECONDS + 5) #NEW
+
             
             if not success:
                 return jsonify({'error': error}), 400
@@ -316,13 +322,10 @@ class WebUI(InterfaceBase):
             def generate():
                 while True:
                     try:
-                        # Check if queue was replaced (reconnection scenario)
+                        # Always get the LATEST queue for this session ID
                         current_queue = self._message_queues.get(web_session_id)
-                        if current_queue is not message_queue and current_queue is not None:
-                            # Queue was replaced, use the new one
-                            msg = current_queue.get(timeout=30)
-                        else:
-                            msg = message_queue.get(timeout=30)
+                        if not current_queue: break
+                        msg = current_queue.get(timeout=30)
                         yield f"data: {json.dumps(msg)}\n\n"
                     except queue.Empty:
                         # Send keepalive
@@ -351,7 +354,7 @@ class WebUI(InterfaceBase):
                 self.mediagent.force_proceed(session_info['session_id']),
                 self._loop
             )
-            success, error = future.result(timeout=60)
+            success, error = future.result(timeout=120)
             
             if not success:
                 return jsonify({'error': error}), 400
@@ -395,6 +398,7 @@ class WebUI(InterfaceBase):
             self._message_queues[web_session_id].put({
                 'type': 'message',
                 'content': message,
+                'refresh_state': True, #NEW
                 'timestamp': datetime.now().isoformat()
             })
             print(f"[WebUI] Message sent to {member.name} (queue {web_session_id[:8]}...)")

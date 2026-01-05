@@ -1,0 +1,206 @@
+{
+  "session_id": "33da7769-94a8-4876-94b5-1d766adf76ff",
+  "created_at": "2026-01-05T15:21:41.098031",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-05T15:21:41.098031",
+      "admin": "gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-05T15:21:47.636041",
+      "member_id": "afe7b753-aa63-404c-9f0f-de4cb4f0957c",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-05T15:21:50.977544",
+      "member_id": "7e5cca4d-9163-4834-995b-bd8613b47a67",
+      "member_name": "Rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-05T15:22:13.496303",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-05T15:22:34.591339",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-05T15:22:41.251437",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-05T15:22:57.938987",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-05T15:23:12.405431",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-05T15:23:28.853541",
+      "round": 3,
+      "response_count": 3
+    },
+    {
+      "type": "voting_started",
+      "timestamp": "2026-01-05T15:24:28.752849",
+      "option_count": 3
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-05T15:24:40.361266",
+      "member_name": "gaya",
+      "option": "Mountain Basecamp with Challenging Excursions"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-05T15:24:46.142310",
+      "member_name": "adi",
+      "option": "Wilderness-Adjacent Retreat & Dedicated Challenge"
+    },
+    {
+      "type": "vote_cast",
+      "timestamp": "2026-01-05T15:24:51.754497",
+      "member_name": "Rony",
+      "option": "Rugged Coastal Trek with Structured Comfort"
+    },
+    {
+      "type": "session_completed",
+      "timestamp": "2026-01-05T15:25:10.171543"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-05T15:22:13.496303",
+      "questions": {
+        "1dcd0dd9-5568-4e1d-837f-81bc0e717ee2": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "afe7b753-aa63-404c-9f0f-de4cb4f0957c": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "7e5cca4d-9163-4834-995b-bd8613b47a67": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in the summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n"
+      },
+      "responses": {},
+      "completed_at": "2026-01-05T15:22:34.591339",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2026-01-05T15:22:41.251437",
+      "questions": {
+        "1dcd0dd9-5568-4e1d-837f-81bc0e717ee2": "gaya, you've made it clear that comfort and relaxation are your top priorities, with a preference for luxury amenities like a spa and shopping, and reliable Wi-Fi. To help us find the best fit, could you elaborate on what aspect of 'comfort and relaxation' is most crucial for you? Is it primarily the pampering and convenience of services, or is it more about having a stress-free environment where everything is taken care of?",
+        "afe7b753-aa63-404c-9f0f-de4cb4f0957c": "adi, your primary goal is to immerse yourself in nature and engage in physical challenges, preferring a remote mountain setting for hiking and adventure. When you envision 'nature and physical challenge,' what aspect resonates most deeply with you? Is it the solitude and untouched wilderness, the thrill of pushing your physical limits, or the opportunity to explore breathtaking natural landscapes?",
+        "7e5cca4d-9163-4834-995b-bd8613b47a67": "Rony, your main priority is cost-effectiveness, and you want to avoid long flights. To understand your preference better, could you tell me what 'cost-effectiveness' means most to you in this context? Is it about finding the absolute lowest price for the entire trip, or is it more about getting good value for money while still enjoying the experience?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-05T15:22:57.938987",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2026-01-05T15:23:12.405431",
+      "questions": {
+        "1dcd0dd9-5568-4e1d-837f-81bc0e717ee2": "Given your emphasis on needing maximum comfort, professional spa services to truly disconnect from work stress, and the importance of shopping for family bonding, would you be open to a luxury resort destination that offers high-end spa facilities, excellent Wi-Fi, and curated shopping experiences, even if it's situated in a more tranquil, picturesque setting *near* natural beauty rather than in a bustling city center?",
+        "afe7b753-aa63-404c-9f0f-de4cb4f0957c": "Recognizing your strong desire for nature and physical challenge, needing intense hiking to feel alive and healthy away from the office, would you consider a destination that offers excellent access to challenging mountain trails and outdoor adventures, even if it includes a comfortable lodge or resort with some amenities, rather than a completely isolated, primitive cabin?",
+        "7e5cca4d-9163-4834-995b-bd8613b47a67": "Acknowledging your strong priority for cost-effectiveness, wanting to return without debt, and valuing a short travel time to maximize family time, would you be willing to consider a destination that is easily accessible via a short flight or drive, even if it means a moderate, well-managed budget for accommodations and activities that offers good value, rather than strictly the cheapest option available?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-05T15:23:28.853541",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-05T15:22:41.225824",
+      "round": 1,
+      "prompt": "You are an expert mediator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - gaya\n- adi\n- Rony\n\n    Latest responses (Round 1):\n    gaya: My must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation\nadi: I want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker is cr...",
+      "response": "gaya: gaya, you've made it clear that comfort and relaxation are your top priorities, with a preference for luxury amenities like a spa and shopping, and reliable Wi-Fi. To help us find the best fit, could you elaborate on what aspect of 'comfort and relaxation' is most crucial for you? Is it primarily the pampering and convenience of services, or is it more about having a stress-free environment where everything is taken care of?\nadi: adi, your primary goal is to immerse yourself in nature and engage in physical challenges, preferring a remote mountain setting for hiking and adventure. When you envision 'nature and physical challenge,' what aspect resonates most deeply with you? Is it the solitude and untouched wilderness, the thrill of pushing your physical limits, or the opportunity to explore breathtaking natural landscapes?\nRony: Rony, your main priority is cost-effectiveness, and you want to avoid long flights. To understand your preference better, could you tell me what 'cost-ef...",
+      "parsed_questions": {
+        "gaya": "gaya, you've made it clear that comfort and relaxation are your top priorities, with a preference for luxury amenities like a spa and shopping, and reliable Wi-Fi. To help us find the best fit, could you elaborate on what aspect of 'comfort and relaxation' is most crucial for you? Is it primarily the pampering and convenience of services, or is it more about having a stress-free environment where everything is taken care of?",
+        "adi": "adi, your primary goal is to immerse yourself in nature and engage in physical challenges, preferring a remote mountain setting for hiking and adventure. When you envision 'nature and physical challenge,' what aspect resonates most deeply with you? Is it the solitude and untouched wilderness, the thrill of pushing your physical limits, or the opportunity to explore breathtaking natural landscapes?",
+        "Rony": "Rony, your main priority is cost-effectiveness, and you want to avoid long flights. To understand your preference better, could you tell me what 'cost-effectiveness' means most to you in this context? Is it about finding the absolute lowest price for the entire trip, or is it more about getting good value for money while still enjoying the experience?"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T15:23:12.381542",
+      "round": 2,
+      "prompt": "You are a neutral negotiator. Topic: family vacation (Constraints: 10 days in the summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - gaya\n- adi\n- Rony\n\n    Round 1 baseline preferences:\n    gaya: My must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation\nadi: I want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker i...",
+      "response": "gaya: Given your emphasis on needing maximum comfort, professional spa services to truly disconnect from work stress, and the importance of shopping for family bonding, would you be open to a luxury resort destination that offers high-end spa facilities, excellent Wi-Fi, and curated shopping experiences, even if it's situated in a more tranquil, picturesque setting *near* natural beauty rather than in a bustling city center?\nadi: Recognizing your strong desire for nature and physical challenge, needing intense hiking to feel alive and healthy away from the office, would you consider a destination that offers excellent access to challenging mountain trails and outdoor adventures, even if it includes a comfortable lodge or resort with some amenities, rather than a completely isolated, primitive cabin?\nRony: Acknowledging your strong priority for cost-effectiveness, wanting to return without debt, and valuing a short travel time to maximize family time, would you be willing to consider a ...",
+      "parsed_questions": {
+        "gaya": "Given your emphasis on needing maximum comfort, professional spa services to truly disconnect from work stress, and the importance of shopping for family bonding, would you be open to a luxury resort destination that offers high-end spa facilities, excellent Wi-Fi, and curated shopping experiences, even if it's situated in a more tranquil, picturesque setting *near* natural beauty rather than in a bustling city center?",
+        "adi": "Recognizing your strong desire for nature and physical challenge, needing intense hiking to feel alive and healthy away from the office, would you consider a destination that offers excellent access to challenging mountain trails and outdoor adventures, even if it includes a comfortable lodge or resort with some amenities, rather than a completely isolated, primitive cabin?",
+        "Rony": "Acknowledging your strong priority for cost-effectiveness, wanting to return without debt, and valuing a short travel time to maximize family time, would you be willing to consider a destination that is easily accessible via a short flight or drive, even if it means a moderate, well-managed budget for accommodations and activities that offers good value, rather than strictly the cheapest option available?"
+      }
+    }
+  ],
+  "final_decision": {
+    "winner": "Wilderness-Adjacent Retreat & Dedicated Challenge",
+    "votes": {
+      "Mountain Basecamp with Challenging Excursions": 1,
+      "Wilderness-Adjacent Retreat & Dedicated Challenge": 1,
+      "Rugged Coastal Trek with Structured Comfort": 1
+    },
+    "tie_breaker_used": true,
+    "tie_breaker_text": "**The Tie-Breaker Decision:** Option 2\n**Rationale:** Option 2 best navigates the core conflict between Gaya's need for comfort and Adi's desire for intense challenge. It offers Gaya a \"well-appointed lodge with good connectivity and amenities,\" directly addressing her deal-breaker of remote areas without good Wi-Fi and her priority for comfort. Simultaneously, it explicitly facilitates Adi with a \"guided, intense physical challenge (e.g., a 2-day trek with basic camping) into the adjacent wilderness,\" perfectly aligning with his need for nature and physical exertion. This option avoids catastrophic violations for Gaya while maximizing Adi's primary goal, and none of the options violate Rony's deal-breaker of a long flight."
+  },
+  "topic": "family vacation",
+  "admin": "gaya",
+  "invite_code": "2GP7C7QG",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "afe7b753-aa63-404c-9f0f-de4cb4f0957c": "adi",
+    "7e5cca4d-9163-4834-995b-bd8613b47a67": "Rony"
+  },
+  "voting": {
+    "started_at": "2026-01-05T15:24:28.752849",
+    "options": [
+      {
+        "title": "Mountain Basecamp with Challenging Excursions",
+        "description": "Establish a comfortable, connected basecamp in a scenic mountain region known for its extensive trail network. From this base, Adi can embark on rigorous, multi-hour or multi-day treks into more challenging terrain, while Gaya and others enjoy shorter, less intense hikes, local amenities, and connectivity."
+      },
+      {
+        "title": "Wilderness-Adjacent Retreat & Dedicated Challenge",
+        "description": "Propose a stay at a well-appointed lodge or cabin located near truly remote wilderness areas, offering good connectivity and amenities. Adi could be facilitated with a guided, intense physical challenge (e.g., a 2-day trek with basic camping) into the adjacent wilderness, while the rest of the group enjoys the comforts of the lodge and nearby, less strenuous activities."
+      },
+      {
+        "title": "Rugged Coastal Trek with Structured Comfort",
+        "description": "Suggest a multi-day trek along a dramatic coastline or through a dense forest, focusing on physical exertion and a sense of wildness. The trek would incorporate stays at comfortable, pre-booked accommodations (e.g., inns, eco-lodges) with connectivity at regular intervals, ensuring both challenge and comfort are met."
+      }
+    ],
+    "votes": {
+      "1dcd0dd9-5568-4e1d-837f-81bc0e717ee2": {
+        "member_name": "gaya",
+        "option_index": 0,
+        "option_title": "Mountain Basecamp with Challenging Excursions",
+        "timestamp": "2026-01-05T15:24:40.361266"
+      },
+      "afe7b753-aa63-404c-9f0f-de4cb4f0957c": {
+        "member_name": "adi",
+        "option_index": 1,
+        "option_title": "Wilderness-Adjacent Retreat & Dedicated Challenge",
+        "timestamp": "2026-01-05T15:24:46.142310"
+      },
+      "7e5cca4d-9163-4834-995b-bd8613b47a67": {
+        "member_name": "Rony",
+        "option_index": 2,
+        "option_title": "Rugged Coastal Trek with Structured Comfort",
+        "timestamp": "2026-01-05T15:24:51.754497"
+      }
+    }
+  },
+  "completed_at": "2026-01-05T15:25:10.171543"
+}

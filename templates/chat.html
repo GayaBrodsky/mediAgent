@@ -178,27 +178,38 @@
                 state.eventSource.close();
             }
 
-            // Initialize session first to ensure cookie is set properly
-            try {
-                await fetch('/api/init_session');
-            } catch (error) {
-                console.error('Failed to initialize session:', error);
+            // Initialize session cookie ONLY if we are not already in a session.
+            if (!state.inSession || !state.sessionId || !state.memberId) {
+                try {
+                    await fetch('/api/init_session');
+                } catch (error) {
+                    console.error('Failed to initialize session:', error);
+                }
             }
 
             state.eventSource = new EventSource('/api/events');
-            
+
             state.eventSource.onmessage = (event) => {
-                const data = JSON.parse(event.data);
-                if (data.type === 'message') {
-                    addMessage(data.content, 'system');
-                    checkSessionStatus(); // Refresh status
+                try {
+                    const data = JSON.parse(event.data);
+                    if (data && data.content) {
+                        addMessage(data.content, 'system');
+                        checkSessionStatus();
+                    }
+                } catch (e) {
+                    console.error("Bad SSE payload:", event.data, e);
                 }
             };
 
+            // Reconnect WITHOUT re-calling init_session
             state.eventSource.onerror = () => {
-                setTimeout(connectSSE, 3000);
+                if (state.eventSource) state.eventSource.close();
+                setTimeout(() => {
+                    state.eventSource = new EventSource('/api/events');
+                }, 3000);
             };
         }
+
 
         // Check current session status
         async function checkSessionStatus() {
@@ -527,12 +538,12 @@
         function addMessage(content, type) {
 
            // If a new message from the AI (system) arrives, clear the previous user bubbles
-            if (type === 'system' && content.includes("Round")) {
-                messagesContainer.innerHTML = '';
+            if (type === 'system' && content.includes("Topic finalized")) { //NEW
+                    elements.messagesContainer.innerHTML = ''; // Use 'elements.messagesContainer' for consistency
 
                 // 2. THE SECRET FIX: Wipe AGAIN in 100ms to catch the "ghost" pasta bubble
-                setTimeout(() => {
-                    const userBubbles = messagesContainer.querySelectorAll('.message.user');
+                setTimeout(() => { 
+                    const userBubbles = elements.messagesContainer.querySelectorAll('.message.user'); //NEW
                     userBubbles.forEach(msg => msg.remove());
                 }, 100);
             }

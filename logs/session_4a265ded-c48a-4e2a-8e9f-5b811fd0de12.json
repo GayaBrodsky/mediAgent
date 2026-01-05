@@ -1,0 +1,63 @@
+{
+  "session_id": "4a265ded-c48a-4e2a-8e9f-5b811fd0de12",
+  "created_at": "2026-01-04T15:11:06.346954",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T15:11:06.346954",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T15:11:13.196715",
+      "member_id": "63a597f9-c16b-4a5f-8595-cfffc1c082fd",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T15:11:18.051236",
+      "member_id": "10150413-8e13-474a-a215-98a1d32e429b",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T15:11:36.251925",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T15:12:01.824636",
+      "round": 1,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-04T15:11:36.251925",
+      "questions": {
+        "ef6a2392-c58f-4edd-87b9-efe255e77216": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "63a597f9-c16b-4a5f-8595-cfffc1c082fd": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "10150413-8e13-474a-a215-98a1d32e429b": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T15:12:01.824636",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "MM2RYYFJ",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "63a597f9-c16b-4a5f-8595-cfffc1c082fd": "adi",
+    "10150413-8e13-474a-a215-98a1d32e429b": "rony"
+  }
+}

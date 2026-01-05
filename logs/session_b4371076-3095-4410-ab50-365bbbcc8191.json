@@ -1,0 +1,132 @@
+{
+  "session_id": "b4371076-3095-4410-ab50-365bbbcc8191",
+  "created_at": "2026-01-04T15:54:16.484672",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T15:54:16.484672",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T15:54:22.605300",
+      "member_id": "0f5db11d-f679-428a-b185-4839f90791f6",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T15:54:27.267812",
+      "member_id": "b68b1be7-6ece-43f3-939d-fd2a00df30bf",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T15:54:45.435541",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T15:55:06.476216",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T15:55:11.605703",
+      "round": 2,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T15:55:34.674994",
+      "round": 2,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T15:55:44.710291",
+      "round": 3,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T15:55:54.939086",
+      "round": 3,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-04T15:54:45.435541",
+      "questions": {
+        "423adb07-8438-4da1-94d1-ab3d58660438": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "0f5db11d-f679-428a-b185-4839f90791f6": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n",
+        "b68b1be7-6ece-43f3-939d-fd2a00df30bf": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T15:55:06.476216",
+      "response_count": 3
+    },
+    "2": {
+      "started_at": "2026-01-04T15:55:11.605703",
+      "questions": {
+        "423adb07-8438-4da1-94d1-ab3d58660438": "You prioritize comfort and relaxation; what specific aspects or feelings make a vacation truly relaxing and comfortable for you?",
+        "0f5db11d-f679-428a-b185-4839f90791f6": "What is it about the 'physical challenge' and being immersed in 'nature' that you find most appealing for a vacation?",
+        "b68b1be7-6ece-43f3-939d-fd2a00df30bf": "Could you elaborate on what 'strictly cheap' means to you, especially considering the overall vacation has no budget constraint?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T15:55:34.674994",
+      "response_count": 3
+    },
+    "3": {
+      "started_at": "2026-01-04T15:55:44.710291",
+      "questions": {
+        "423adb07-8438-4da1-94d1-ab3d58660438": "Given your priority for maximum comfort, professional spa services, and family bonding through shopping, would you consider a highly-rated luxury resort with an exceptional spa and premium retail experiences available on-site or very close by, even if it's not located directly in a bustling city center? How willing are you to consider this option (1-5)?",
+        "0f5db11d-f679-428a-b185-4839f90791f6": "Understanding your need for remote mountains and intense hiking to feel alive and healthy, would you be willing to consider a comfortable, rustic lodge situated directly within a wilderness area, offering immediate access to advanced, physically demanding trails, if it still guaranteed deep immersion in nature and rigorous physical challenge? How open are you to this idea (1-5)?",
+        "b68b1be7-6ece-43f3-939d-fd2a00df30bf": "Given your strong priority for cost-effectiveness, avoiding long flights, and ensuring no post-vacation debt, would you be open to a vacation package that, while not \"strictly cheap\" initially, offers a fixed, transparent price for all major expenses and a very short flight, ensuring complete financial predictability and maximum time spent together? How appealing is this idea to you (1-5)?"
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T15:55:54.939086",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-04T15:55:11.588619",
+      "round": 1,
+      "prompt": "You are an expert mediator. Topic: family vacation (Constraints: 10 days in summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - Gaya\n- adi\n- rony\n\n    Latest responses (Round 1):\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker...",
+      "response": "Gaya: You prioritize comfort and relaxation; what specific aspects or feelings make a vacation truly relaxing and comfortable for you?\nadi: What is it about the 'physical challenge' and being immersed in 'nature' that you find most appealing for a vacation?\nrony: Could you elaborate on what 'strictly cheap' means to you, especially considering the overall vacation has no budget constraint?",
+      "parsed_questions": {
+        "Gaya": "You prioritize comfort and relaxation; what specific aspects or feelings make a vacation truly relaxing and comfortable for you?",
+        "adi": "What is it about the 'physical challenge' and being immersed in 'nature' that you find most appealing for a vacation?",
+        "rony": "Could you elaborate on what 'strictly cheap' means to you, especially considering the overall vacation has no budget constraint?"
+      }
+    },
+    {
+      "timestamp": "2026-01-04T15:55:44.684058",
+      "round": 2,
+      "prompt": "You are a neutral negotiator. Topic: family vacation (Constraints: 10 days in summer, no budget)\n\n    Participants (use these names EXACTLY, one line per person):\n    - Gaya\n- adi\n- rony\n\n    Round 1 baseline preferences:\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-bre...",
+      "response": "Gaya: Given your priority for maximum comfort, professional spa services, and family bonding through shopping, would you consider a highly-rated luxury resort with an exceptional spa and premium retail experiences available on-site or very close by, even if it's not located directly in a bustling city center? How willing are you to consider this option (1-5)?\nadi: Understanding your need for remote mountains and intense hiking to feel alive and healthy, would you be willing to consider a comfortable, rustic lodge situated directly within a wilderness area, offering immediate access to advanced, physically demanding trails, if it still guaranteed deep immersion in nature and rigorous physical challenge? How open are you to this idea (1-5)?\nrony: Given your strong priority for cost-effectiveness, avoiding long flights, and ensuring no post-vacation debt, would you be open to a vacation package that, while not \"strictly cheap\" initially, offers a fixed, transparent price for all major exp...",
+      "parsed_questions": {
+        "Gaya": "Given your priority for maximum comfort, professional spa services, and family bonding through shopping, would you consider a highly-rated luxury resort with an exceptional spa and premium retail experiences available on-site or very close by, even if it's not located directly in a bustling city center? How willing are you to consider this option (1-5)?",
+        "adi": "Understanding your need for remote mountains and intense hiking to feel alive and healthy, would you be willing to consider a comfortable, rustic lodge situated directly within a wilderness area, offering immediate access to advanced, physically demanding trails, if it still guaranteed deep immersion in nature and rigorous physical challenge? How open are you to this idea (1-5)?",
+        "rony": "Given your strong priority for cost-effectiveness, avoiding long flights, and ensuring no post-vacation debt, would you be open to a vacation package that, while not \"strictly cheap\" initially, offers a fixed, transparent price for all major expenses and a very short flight, ensuring complete financial predictability and maximum time spent together? How appealing is this idea to you (1-5)?"
+      }
+    }
+  ],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "EZJHERMK",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "0f5db11d-f679-428a-b185-4839f90791f6": "adi",
+    "b68b1be7-6ece-43f3-939d-fd2a00df30bf": "rony"
+  }
+}

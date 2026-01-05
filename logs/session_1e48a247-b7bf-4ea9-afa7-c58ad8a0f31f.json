@@ -1,0 +1,102 @@
+{
+  "session_id": "1e48a247-b7bf-4ea9-afa7-c58ad8a0f31f",
+  "created_at": "2026-01-04T13:50:59.321078",
+  "events": [
+    {
+      "type": "session_created",
+      "timestamp": "2026-01-04T13:50:59.321078",
+      "admin": "Gaya",
+      "topic": "family vacation"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T13:51:06.862959",
+      "member_id": "31d7bec0-d993-4ea9-aad8-417bd0621f9f",
+      "member_name": "adi"
+    },
+    {
+      "type": "member_joined",
+      "timestamp": "2026-01-04T13:51:11.739544",
+      "member_id": "c4bf7517-0df8-4e41-a22c-ff9b4609d6af",
+      "member_name": "rony"
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T13:51:40.470272",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T13:52:21.161693",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T13:52:29.946879",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T13:57:29.957352",
+      "round": 1,
+      "response_count": 3
+    },
+    {
+      "type": "round_started",
+      "timestamp": "2026-01-04T13:57:38.567840",
+      "round": 1,
+      "question_count": 3
+    },
+    {
+      "type": "round_completed",
+      "timestamp": "2026-01-04T14:02:38.587967",
+      "round": 1,
+      "response_count": 3
+    }
+  ],
+  "rounds": {
+    "1": {
+      "started_at": "2026-01-04T13:51:40.470272",
+      "questions": {
+        "5e0c2ecf-c132-484f-b7eb-1e4af63e11cf": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n\n(Admin: Please also specify Duration, Budget level, and preferred Region if not already discussed).",
+        "31d7bec0-d993-4ea9-aad8-417bd0621f9f": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n\n(Admin: Please also specify Duration, Budget level, and preferred Region if not already discussed).",
+        "c4bf7517-0df8-4e41-a22c-ff9b4609d6af": "Welcome to this group decision session! \n\nTopic: family vacation (Constraints: 10 days in summer, no budget)\n\nTo help me mediate effectively, please share your thoughts on the following:\n1. What are your 'must-haves' and 'deal-breakers'?\n2. What are your initial ideas for an ideal outcome?\n3. What is your most important priority?\n\n(Admin: Please also specify Duration, Budget level, and preferred Region if not already discussed)."
+      },
+      "responses": {},
+      "completed_at": "2026-01-04T14:02:38.587967",
+      "response_count": 3
+    }
+  },
+  "llm_interactions": [
+    {
+      "timestamp": "2026-01-04T13:52:29.931023",
+      "round": 1,
+      "prompt": "You are an expert mediator. Ground yourself in the topic: family vacation (Constraints: 10 days in summer, no budget).\n    The group has provided these initial thoughts:\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker is crowded cities and expensive shopping malls....",
+      "response": "**Gaya:**\nYou've clearly expressed a desire for comfort and relaxation, prioritizing a luxury city hotel experience with a spa and shopping nearby, and good Wi-Fi. To help me understand this better, could you tell me more about what aspects of 'comfort' and 'relaxation' are most important to you? For example, is it the feeling of being pampered and catered to, the mental stimulation of exploring a vibrant city, having everything easily accessible, or perhaps the opportunity to disconnect from daily chores and responsibilities? And what role does the shopping play in your ideal relaxation?\n\n**Adi:**\nYou've articulated a strong desire for nature and physical challenge, envisioning a remote mountain cabin with opportunities for intense hiking and outdoor adventure. To really grasp what drives this preference, could you describe what kind of experience you're hoping to achieve through these activities? For instance, is it the feeling of accomplishment from pushing your physical limits, the...",
+      "parsed_questions": {}
+    },
+    {
+      "timestamp": "2026-01-04T13:57:38.555549",
+      "round": 1,
+      "prompt": "You are an expert mediator. Ground yourself in the topic: family vacation (Constraints: 10 days in summer, no budget).\n    The group has provided these initial thoughts:\n    **Gaya:**\nMy must-have is a luxury city hotel with a spa and shopping nearby. My deal-breaker is camping or remote areas without good Wi-Fi. My priority is comfort and relaxation.\n\n**adi:**\nI want a remote mountain cabin for intense hiking and outdoor adventure. My deal-breaker is crowded cities and expensive shopping malls....",
+      "response": "Gaya: Gaya, you've clearly expressed a desire for comfort and relaxation, prioritizing a luxury city hotel with a spa and shopping. Could you elaborate a bit on what specific aspects of these elements truly contribute to your sense of relaxation and comfort? For instance, when you imagine using a spa, is it the pampering, the quiet solitude, the physical rejuvenation, or perhaps the feeling of being completely taken care of that you seek? Similarly, with shopping, is it the thrill of finding something new, the leisurely browsing, or simply the convenience of having options available that enhances your experience?\n\nAdi: Adi, your priority is clearly nature and physical challenge, with a strong preference for a remote mountain cabin and intense hiking. Could you tell me more about what draws you to 'intense' hiking and outdoor adventure? Is it the feeling of pushing your physical limits, the solitude of untouched wilderness, the specific kind of natural beauty found in mountains, or perh...",
+      "parsed_questions": {}
+    }
+  ],
+  "final_decision": null,
+  "topic": "family vacation",
+  "admin": "Gaya",
+  "invite_code": "C8NK234U",
+  "settings": {
+    "max_iterations": 3,
+    "timeout_seconds": 300,
+    "min_response_percentage": 60
+  },
+  "members": {
+    "31d7bec0-d993-4ea9-aad8-417bd0621f9f": "adi",
+    "c4bf7517-0df8-4e41-a22c-ff9b4609d6af": "rony"
+  }
+}
